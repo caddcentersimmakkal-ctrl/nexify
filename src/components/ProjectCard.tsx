@@ -30,7 +30,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div
         className="h-44 flex items-center justify-center relative overflow-hidden"
         style={{
-          background: "var(--gradient-brand-subtle)"
+          background: "var(--gradient-brand-subtle)",
+          marginBottom: "20px"
         }}
       >
         <div
@@ -106,7 +107,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         {/* Footer actions */}
         <div
           className="flex items-center gap-3 pt-4"
-          style={{ borderTop: "1px solid var(--color-border)" }}
+          style={{ borderTop: "1px solid var(--color-border)", paddingTop: "15px" }}
         >
           {project.courseSlug && (
             <Link

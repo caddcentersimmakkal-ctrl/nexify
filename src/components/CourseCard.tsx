@@ -124,7 +124,7 @@ export default function CourseCard({ course }: CourseCardProps) {
           }}
           aria-label={`View ${course.name} course details`}
         >
-          <span className="text-sm font-semibold">View Course</span>
+          <span className="text-sm font-semibold" style={{marginTop: "20px"}}>View Course</span>
           <ArrowRight
             size={16}
             className="transition-transform group-hover/link:translate-x-1"

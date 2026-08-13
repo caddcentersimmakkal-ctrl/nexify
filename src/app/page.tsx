@@ -184,7 +184,7 @@ function HeroVisualCard() {
             <p className="text-xs font-medium" style={{ color: "var(--color-text-muted)" }}>Training &amp; Placement</p>
           </div>
         </div>
-        <span className="badge badge-green text-[10px]">Active Batches</span>
+        <span className="badge badge-green text-[10px]">Trending Courses</span>
       </div>
 
       {/* Program Cards */}
@@ -311,7 +311,7 @@ export default function HomePage() {
       {/* Featured Courses */}
       <section
         className="section-padding"
-        style={{ background: "var(--color-navy-surface)", borderTop: "1px solid var(--color-border)", borderBottom: "1px solid var(--color-border)" }}
+        style={{ background: "white", borderTop: "1px solid var(--color-border)", borderBottom: "1px solid var(--color-border)" }}
         aria-labelledby="courses-heading"
       >
         <div className="section-container">
@@ -320,7 +320,7 @@ export default function HomePage() {
               badge="Programs"
               title="Explore Our"
               titleHighlight="Career-Focused Courses"
-              subtitle="Choose the learning path that matches your career goals."
+              // subtitle="Choose the learning path that matches your career goals."
               align="left"
               id="courses-heading"
             />
@@ -405,7 +405,7 @@ export default function HomePage() {
       </section>
 
       {/* Technology Section */}
-      <section
+      {/* <section
         className="section-padding"
         style={{ background: "var(--color-navy-surface)", borderTop: "1px solid var(--color-border)" }}
         aria-labelledby="tech-heading"
@@ -425,10 +425,10 @@ export default function HomePage() {
             <TechnologyGrid />
           </AnimatedSection>
         </div>
-      </section>
+      </section> */}
 
       {/* Projects Preview */}
-      <section
+      {/* <section
         className="section-padding"
         style={{ borderTop: "1px solid var(--color-border)" }}
         aria-labelledby="projects-heading"
@@ -460,10 +460,10 @@ export default function HomePage() {
             ))}
           </StaggerContainer>
         </div>
-      </section>
+      </section> */}
 
       {/* Workshop Preview */}
-      {upcomingWorkshops.length > 0 && (
+      {/* {upcomingWorkshops.length > 0 && (
         <section
           className="section-padding"
           style={{ background: "var(--color-navy-surface)", borderTop: "1px solid var(--color-border)" }}
@@ -497,12 +497,12 @@ export default function HomePage() {
             </StaggerContainer>
           </div>
         </section>
-      )}
+      )} */}
 
       {/* Career CTA */}
       <section
         className="section-padding"
-        style={{ borderTop: "1px solid var(--color-border)" }}
+        style={{ borderTop: "1px solid var(--color-border)", backgroundColor: "white" }}
         aria-labelledby="career-cta-heading"
       >
         <div className="section-container">
@@ -528,7 +528,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials */}
-      <section
+      {/* <section
         className="section-padding"
         style={{ background: "var(--color-navy-surface)", borderTop: "1px solid var(--color-border)" }}
         aria-labelledby="testimonials-heading"
@@ -555,10 +555,10 @@ export default function HomePage() {
             ))}
           </StaggerContainer>
         </div>
-      </section>
+      </section> */}
 
       {/* Final CTA */}
-      <section
+      {/* <section
         className="section-padding"
         style={{ borderTop: "1px solid var(--color-border)" }}
         aria-labelledby="final-cta-heading"
@@ -575,7 +575,7 @@ export default function HomePage() {
             />
           </AnimatedSection>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

@@ -9,8 +9,9 @@ export default function Stats() {
     <section
       className="py-12 border-y"
       style={{
-        background: "var(--color-surface)",
-        borderColor: "var(--color-border)"
+        background: "white",
+        borderColor: "var(--color-border)",
+        padding: "50px 0px"
       }}
     >
       <div className="section-container">
@@ -41,7 +42,7 @@ export default function Stats() {
                 </span>
                 <span
                   className="text-xs"
-                  style={{ color: "var(--color-text-muted)" }}
+                  style={{ color: "black" }}
                 >
                   {stat.description}
                 </span>

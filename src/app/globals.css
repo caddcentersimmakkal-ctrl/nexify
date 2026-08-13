@@ -4,7 +4,7 @@
 :root {
   /* Official Nexify Brand Colors */
   --color-primary-navy: #202C48;
-   /* --color-primary-navy: #fff; */
+  /* --color-primary-navy: #fff; */
   --color-tech-teal: #1686A0;
   --color-primary-green: #78C043;
   --color-dark-green: #286A3D;
@@ -75,7 +75,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -187,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 25px;
 }
 
 .section-padding {
@@ -249,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
@@ -256,4 +262,47 @@ h1, h2, h3, h4, h5, h6 {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+
+
+
+
+
+
+
+/* Base Navbar Styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-navy-bg);
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  /* Crucial for absolute pseudo-elements */
+  padding: 5px 0;
+}
+
+/* Underline Setup */
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-border-hover);
+  /* Underline color */
+  transition: width 0.3s ease;
+  /* Smooth transition */
+}
+
+/* Hover Action */
+nav a:hover::after {
+  width: 100%;
 }

@@ -43,7 +43,7 @@ export default function Navbar() {
             : "py-5"
         }`}
         style={{
-          background: isScrolled ? "rgba(16, 24, 39, 0.92)" : "transparent",
+          background: "white",
           borderColor: isScrolled ? "var(--color-border)" : "transparent"
         }}
       >
@@ -68,7 +68,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className="px-3.5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 hover:text-white"
-                style={{ color: "var(--color-text-secondary)" }}
+                style={{ color: "black", padding: "0 10px" }}
               >
                 {link.label}
               </Link>

@@ -20,7 +20,7 @@ export default function SectionHeader({
   const alignClass = align === "center" ? "text-center items-center" : "text-left items-start";
 
   return (
-    <div id={id} className={`flex flex-col gap-4 ${alignClass} ${className}`}>
+    <div id={id} className={`flex flex-col gap-4 ${alignClass} ${className}`} style={{ marginBottom: "30px" }}>
       {badge && (
         <span className="badge badge-green">
           {badge}
@@ -33,7 +33,7 @@ export default function SectionHeader({
         )}
       </h2>
       {subtitle && (
-        <p className="text-base md:text-lg max-w-2xl leading-relaxed" style={{ color: "var(--color-text-secondary)" }}>
+        <p className="text-base md:text-lg max-w-2xl leading-relaxed">
           {subtitle}
         </p>
       )}

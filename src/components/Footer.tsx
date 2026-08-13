@@ -120,7 +120,7 @@ export default function Footer() {
           <div>
             <h3
               className="text-xs font-bold uppercase tracking-widest mb-5"
-              style={{ color: "var(--color-primary-green)" }}
+              style={{ color: "var(--color-primary-green)", paddingTop: "15px", paddingBottom: "15px" }}
             >
               Courses
             </h3>
@@ -143,7 +143,7 @@ export default function Footer() {
           <div>
             <h3
               className="text-xs font-bold uppercase tracking-widest mb-5"
-              style={{ color: "var(--color-primary-green)" }}
+              style={{ color: "var(--color-primary-green)", paddingTop: "15px", paddingBottom: "15px" }}
             >
               Explore
             </h3>
@@ -166,7 +166,7 @@ export default function Footer() {
           <div>
             <h3
               className="text-xs font-bold uppercase tracking-widest mb-5"
-              style={{ color: "var(--color-primary-green)" }}
+              style={{ color: "var(--color-primary-green)", paddingTop: "15px", paddingBottom: "15px" }}
             >
               Support
             </h3>
@@ -184,7 +184,7 @@ export default function Footer() {
               ))}
             </ul>
 
-            <div className="mt-8 pt-4 border-t" style={{ borderColor: "var(--color-border)" }}>
+            {/* <div className="mt-8 pt-4 border-t" style={{ borderColor: "var(--color-border)" }}>
               <p
                 className="text-xs uppercase tracking-widest mb-1 font-bold"
                 style={{ color: "var(--color-text-secondary)" }}
@@ -194,14 +194,14 @@ export default function Footer() {
               <p className="text-xs" style={{ color: "var(--color-text-muted)" }}>
                 Mon–Sat: 9:00 AM – 7:00 PM
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div
           className="mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"
-          style={{ borderTop: "1px solid var(--color-border)" }}
+          style={{ borderTop: "1px solid var(--color-border)", paddingTop: "15px", marginTop: "15px" }}
         >
           <p className="text-xs" style={{ color: "var(--color-text-muted)" }}>
             © {currentYear} Nexify Institute (Training &amp; Placement). All rights reserved.

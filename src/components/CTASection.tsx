@@ -46,16 +46,16 @@ export default function CTASection({
   return (
     <section
       className="rounded-2xl p-8 md:p-12 lg:p-16 text-center"
-      style={bgStyles[variant]}
+      style={{ ...bgStyles[variant], display: "flex", justifyContent: "center", alignItems: "center" }}
     >
-      <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
+      <div className="max-w-2xl mx-auto flex flex-col items-center gap-6" style={{ padding: "50px 16px" }}>
         {badge && (
           <span className="badge badge-green">{badge}</span>
         )}
 
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight"
-          style={{ fontFamily: "var(--font-heading)" }}
+          style={{ fontFamily: "var(--font-heading)", color: "black" }}
         >
           {title}{" "}
           {titleHighlight && (
@@ -65,7 +65,7 @@ export default function CTASection({
 
         <p
           className="text-base md:text-lg leading-relaxed max-w-lg"
-          style={{ color: "var(--color-text-secondary)" }}
+          style={{ color: "black" }}
         >
           {description}
         </p>
@@ -79,7 +79,8 @@ export default function CTASection({
                 style={{
                   background: "rgba(120, 192, 67, 0.1)",
                   border: "1px solid rgba(120, 192, 67, 0.25)",
-                  color: "#78C043"
+                  color: "#78C043",
+                  padding: "5px 6px"
                 }}
               >
                 ✓ {feature}
