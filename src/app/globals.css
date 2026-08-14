@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  /* Official Nexify Brand Colors */
+  --color-primary-navy: #202C48;
+  /* --color-primary-navy: #fff; */
+  --color-tech-teal: #1686A0;
+  --color-primary-green: #78C043;
+  --color-dark-green: #286A3D;
+  --color-white: #FFFFFF;
+
+  /* Supporting Background & Surface Tokens */
+  --color-navy-bg: #101827;
+  --color-navy-surface: #172238;
+  --color-card-surface: #1D2940;
+
+  /* Text & Border Tokens */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #C5D1E0;
+  --color-text-muted: #AAB6C8;
+  --color-border: rgba(255, 255, 255, 0.10);
+  --color-border-hover: rgba(120, 192, 67, 0.35);
+
+  /* Modern Nexify Brand Gradients */
+  --gradient-brand: linear-gradient(135deg, #1686A0 0%, #78C043 100%);
+  --gradient-brand-dark: linear-gradient(135deg, #202C48 0%, #286A3D 100%);
+  --gradient-brand-subtle: linear-gradient(135deg, rgba(22, 134, 160, 0.15) 0%, rgba(120, 192, 67, 0.12) 100%);
+  --gradient-surface: linear-gradient(180deg, #172238 0%, #1D2940 100%);
+
+  /* Shadows */
+  --shadow-card: 0 4px 24px rgba(16, 24, 39, 0.5);
+  --shadow-card-hover: 0 8px 32px rgba(22, 134, 160, 0.25);
+  --shadow-glow: 0 0 40px rgba(120, 192, 67, 0.15);
+
+  /* Typography */
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+@theme inline {
+  --color-background: var(--color-navy-bg);
+  --color-foreground: var(--color-text-primary);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+}
+
+/* Reset & Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-navy-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-navy-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(22, 134, 160, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 192, 67, 0.6);
+}
+
+/* Selection */
+::selection {
+  background: rgba(120, 192, 67, 0.3);
+  color: #fff;
+}
+
+/* Utility Classes */
+.gradient-text {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-card {
+  background: var(--color-card-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  transition: all var(--transition-base);
+  padding: 25px;
+}
+
+.glass-card:hover {
+  background: var(--color-navy-surface);
+  border-color: var(--color-border-hover);
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+/* Primary CTA Button - Green / Teal Nexify Palette */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--gradient-brand);
+  color: #FFFFFF;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(120, 192, 67, 0.25);
+}
+
+.btn-primary:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(120, 192, 67, 0.4);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--color-navy-surface);
+  color: var(--color-text-primary);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover {
+  background: var(--color-card-surface);
+  border-color: var(--color-tech-teal);
+  color: #FFFFFF;
+}
+
+.section-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.section-padding {
+  padding: 44px 0;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+
+  .section-container {
+    padding: 0 16px;
+  }
+}
+
+/* Badges based on Nexify brand colors */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.badge-blue {
+  background: rgba(22, 134, 160, 0.15);
+  color: #1686A0;
+  border: 1px solid rgba(22, 134, 160, 0.3);
+}
+
+.badge-violet {
+  background: rgba(120, 192, 67, 0.15);
+  color: #78C043;
+  border: 1px solid rgba(120, 192, 67, 0.3);
+}
+
+.badge-green {
+  background: rgba(40, 106, 61, 0.2);
+  color: #78C043;
+  border: 1px solid rgba(120, 192, 67, 0.3);
+}
+
+.badge-amber {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid #78C043;
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+
+
+
+
+
+
+/* Base Navbar Styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-navy-bg);
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  /* Crucial for absolute pseudo-elements */
+  padding: 5px 0;
+}
+
+/* Underline Setup */
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-border-hover);
+  /* Underline color */
+  transition: width 0.3s ease;
+  /* Smooth transition */
+}
+
+/* Hover Action */
+nav a:hover::after {
+  width: 100%;
+}
