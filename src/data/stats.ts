@@ -8,19 +8,19 @@ export interface Stat {
 export const stats: Stat[] = [
   {
     id: "1",
-    value: "10+",
+    value: "5+",
     label: "Career Programs",
     description: "Industry-focused technology courses"
   },
   {
     id: "2",
-    value: "50+",
+    value: "10+",
     label: "Projects & Assignments",
     description: "Real-world portfolio projects"
   },
   {
     id: "3",
-    value: "1000+",
+    value: "50+",
     label: "Learners",
     description: "Students and professionals trained"
   },
@@ -34,7 +34,7 @@ export const stats: Stat[] = [
 
 export interface Technology {
   name: string;
-  category: "programming" | "web" | "data" | "ai" | "design" | "tools";
+  category: "programming" | "web" | "data" | "ai" | "design" | "tools" | "career";
 }
 
 export const technologies: Technology[] = [
@@ -59,7 +59,16 @@ export const technologies: Technology[] = [
   { name: "LangChain", category: "ai" },
   { name: "Figma", category: "design" },
   { name: "Git", category: "tools" },
-  { name: "GitHub", category: "tools" }
+  { name: "GitHub", category: "tools" },
+  { name: "Communication", category: "career" },
+  { name: "Resume Building", category: "career" },
+  { name: "LinkedIn Optimization", category: "career" },
+  { name: "Quantitative Aptitude", category: "career" },
+  { name: "Logical Reasoning", category: "career" },
+  { name: "Verbal Ability", category: "career" },
+  { name: "Interview Techniques", category: "career" },
+  { name: "Personal Branding", category: "career" },
+  { name: "Mock Interviews", category: "career" }
 ];
 
 export const techCategories = [
@@ -68,7 +77,8 @@ export const techCategories = [
   { id: "data", label: "Data" },
   { id: "ai", label: "AI" },
   { id: "design", label: "Design" },
-  { id: "tools", label: "Tools" }
+  { id: "tools", label: "Tools" },
+  { id: "career", label: "Career Readiness" }
 ];
 
 export interface CareerPath {

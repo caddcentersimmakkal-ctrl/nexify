@@ -9,7 +9,7 @@ export interface Course {
   name: string;
   shortDescription: string;
   fullDescription: string;
-  category: "programming" | "development" | "data" | "ai" | "design" | "productivity";
+  category: "programming" | "development" | "data" | "ai" | "design" | "productivity" | "career";
   level: "beginner" | "intermediate" | "advanced";
   duration: string;
   durationWeeks: number;
@@ -32,170 +32,670 @@ export interface Course {
 export const courses: Course[] = [
   {
     id: "1",
-    slug: "programming-fundamentals",
-    name: "Programming Fundamentals",
-    shortDescription: "Master the core concepts of programming and build a strong foundation for any technology career.",
-    fullDescription: "A comprehensive introduction to programming that covers logic building, algorithms, and problem-solving using multiple programming languages. Perfect for complete beginners.",
+    slug: "certificate-programming-foundations-c-cpp",
+    name: "Certificate in Programming Foundations: C & C++",
+    shortDescription:
+      "Build a strong programming foundation by mastering C programming, problem-solving, and object-oriented programming with C++.",
+
+    fullDescription:
+      "This beginner-friendly professional certificate is designed for students who want to start their software development journey. Learn structured programming in C, memory management, data structures, file handling, and transition into modern C++ with object-oriented programming, STL, templates, and exception handling through hands-on projects.",
+
     category: "programming",
     level: "beginner",
-    duration: "2 Months",
-    durationWeeks: 8,
-    hours: "60+ Hours",
+    duration: "1 Month",
+    durationWeeks: 4,
+    hours: "40 Hours",
+
     mode: "Online / Offline",
-    batchOptions: ["Weekday Batch", "Weekend Batch"],
-    technologies: ["C", "C++", "Python", "Git"],
-    projects: ["Calculator Application", "Student Grade System", "Basic To-Do App"],
-    careerPaths: ["Software Developer", "Python Developer", "Full Stack Developer"],
-    learningOutcomes: [
-      "Understand core programming concepts and paradigms",
-      "Write clean, structured code in C and C++",
-      "Apply logic and algorithms to solve problems",
-      "Understand OOP fundamentals",
-      "Use Git for basic version control"
+
+    batchOptions: [
+      "Weekday Batch",
+      "Weekend Batch"
+      // "Fast Track Batch"
     ],
-    prerequisites: ["No prior programming experience required", "Basic computer skills"],
-    whoIsItFor: ["Complete beginners", "College students", "School leavers exploring tech", "Non-tech professionals curious about coding"],
+
+    technologies: [
+      "C",
+      "C++",
+      "GCC",
+      "Code::Blocks",
+      "Visual Studio Code"
+    ],
+
+    projects: [
+      "Scientific Calculator",
+      "Student Management System",
+      "Banking Management Application",
+      "Text-Based Adventure Game",
+      "Inventory Management System"
+    ],
+
+    careerPaths: [
+      "C Programmer",
+      "C++ Developer",
+      "Software Developer",
+      "Embedded Systems Programmer",
+      "Game Development Beginner"
+    ],
+
+    learningOutcomes: [
+      "Write structured programs using C programming",
+      "Apply loops, conditions, functions, and recursion effectively",
+      "Work with arrays, strings, pointers, and dynamic memory",
+      "Create file-based applications using text and binary files",
+      "Develop object-oriented applications with C++",
+      "Implement inheritance, polymorphism, and abstraction",
+      "Use STL containers, templates, and exception handling",
+      "Build real-world console applications from scratch"
+    ],
+
+    prerequisites: [
+      "No prior programming knowledge required",
+      "Basic computer operating skills",
+      "Laptop or desktop recommended"
+    ],
+
+    whoIsItFor: [
+      "Engineering students",
+      "Diploma students",
+      "Computer science beginners",
+      "School graduates entering IT",
+      "Anyone starting a programming career"
+    ],
+
     syllabus: [
       {
-        title: "Module 1: Introduction to Programming",
-        topics: ["What is programming?", "How computers work", "Setting up your environment", "Writing your first program"]
+        title: "Module 1: Introduction to C Basics",
+        topics: [
+          "Evolution of C",
+          "IDE Setup",
+          "Structure of C Program",
+          "Header Files & Tokens",
+          "Keywords & Identifiers",
+          "Data Types & Variables",
+          "Operators"
+        ]
       },
       {
-        title: "Module 2: Core Concepts with C",
-        topics: ["Variables and data types", "Operators and expressions", "Control flow (if/else, loops)", "Functions and scope"]
+        title: "Module 2: Control Flow & Decision Making",
+        topics: [
+          "if & if-else",
+          "switch-case",
+          "for Loop",
+          "while Loop",
+          "do-while Loop",
+          "break, continue & goto"
+        ]
       },
       {
-        title: "Module 3: Object-Oriented Programming with C++",
-        topics: ["Classes and objects", "Inheritance and polymorphism", "Encapsulation and abstraction", "Basic data structures"]
+        title: "Module 3: Functions & Modular Programming",
+        topics: [
+          "Function Declaration & Definition",
+          "Function Prototypes",
+          "Parameters",
+          "Call by Value & Reference",
+          "Scope Rules",
+          "Recursion"
+        ]
       },
       {
-        title: "Module 4: Introduction to Python",
-        topics: ["Python syntax and basics", "Lists, tuples, dictionaries", "File handling", "Introduction to modules"]
+        title: "Module 4: Arrays & String Handling",
+        topics: [
+          "1D & 2D Arrays",
+          "Array Operations",
+          "Strings",
+          "String Manipulation",
+          "Standard String Library Functions"
+        ]
       },
       {
-        title: "Module 5: Problem Solving & Projects",
-        topics: ["Algorithm thinking", "Debugging techniques", "Mini project development", "Code review practices"]
+        title: "Module 5: Pointers & Dynamic Memory",
+        topics: [
+          "Pointers & Memory Address",
+          "Pointer Arithmetic",
+          "Pointers to Arrays",
+          "malloc(), calloc()",
+          "realloc() & free()"
+        ]
+      },
+      {
+        title: "Module 6: Structures & File Handling",
+        topics: [
+          "Structures & Unions",
+          "Nested Structures",
+          "Arrays of Structures",
+          "Text Files",
+          "Binary Files",
+          "File Read & Write"
+        ]
+      },
+      {
+        title: "Module 7: C++ & Object-Oriented Programming",
+        topics: [
+          "C vs C++",
+          "cin & cout",
+          "Classes & Objects",
+          "Abstraction",
+          "Encapsulation",
+          "Inheritance",
+          "Polymorphism"
+        ]
+      },
+      {
+        title: "Module 8: Constructors & Destructors",
+        topics: [
+          "Default Constructor",
+          "Parameterized Constructor",
+          "Copy Constructor",
+          "Constructor Overloading",
+          "Destructors",
+          "Object Lifecycle"
+        ]
+      },
+      {
+        title: "Module 9: Inheritance & Polymorphism",
+        topics: [
+          "Single & Multiple Inheritance",
+          "Multilevel & Hierarchical",
+          "Function Overloading",
+          "Operator Overloading",
+          "Virtual Functions",
+          "Abstract Classes"
+        ]
+      },
+      {
+        title: "Module 10: Templates & Exception Handling",
+        topics: [
+          "Function Templates",
+          "Class Templates",
+          "Generic Programming",
+          "try, catch & throw",
+          "Error Handling"
+        ]
+      },
+      {
+        title: "Module 11: STL & Modern C++",
+        topics: [
+          "vector",
+          "list",
+          "map",
+          "set",
+          "Iterators",
+          "STL Algorithms",
+          "unique_ptr & shared_ptr"
+        ]
+      },
+      {
+        title: "Practical Lab & Capstone Project",
+        topics: [
+          "30 Programming Exercises",
+          "10 Debugging Challenges",
+          "5 Algorithm Problems",
+          "Banking Application",
+          "Student Management System",
+          "Text-Based Game Development"
+        ]
       }
     ],
+
     faqs: [
-      { question: "Do I need a laptop?", answer: "Yes, a laptop or desktop with at least 8GB RAM is recommended." },
-      { question: "Will I get a certificate?", answer: "A course completion certificate will be provided upon successful completion." },
-      { question: "Is this course suitable for school students?", answer: "Yes, this course is designed to be accessible from Class 11 onwards." }
+      {
+        question: "Do I need prior coding experience?",
+        answer:
+          "No. This course starts from the fundamentals and is designed for complete beginners."
+      },
+      {
+        question: "Will I learn both C and C++?",
+        answer:
+          "Yes. You'll begin with C programming and gradually transition into object-oriented programming using C++."
+      },
+      {
+        question: "Are projects included?",
+        answer:
+          "Yes. The course includes multiple mini projects and one capstone project to build your portfolio."
+      },
+      {
+        question: "Will I receive a certificate?",
+        answer:
+          "Yes. You'll receive the Nexify Certificate in Programming Foundations: C & C++ after successful completion."
+      }
     ],
+
     featured: true,
-    color: "from-blue-600 to-blue-400",
-    icon: "Code"
+    color: "from-blue-700 to-cyan-500",
+    icon: "Code2"
   },
   {
     id: "2",
-    slug: "python-ai-automation",
-    name: "Python for AI & Automation",
-    shortDescription: "Learn Python deeply and apply it to AI, machine learning and automation workflows.",
-    fullDescription: "A practical, project-driven Python course that takes you from fundamentals to advanced topics including AI APIs, automation with libraries, and building AI-powered tools.",
-    category: "ai",
-    level: "intermediate",
-    duration: "3 Months",
-    durationWeeks: 12,
-    hours: "90+ Hours",
+    slug: "career-readiness-program",
+    name: "Certificate in Career Readiness Program",
+    shortDescription:
+      "Become job-ready with communication, aptitude, interview preparation, personal branding, and placement-focused skills.",
+
+    fullDescription:
+      "A comprehensive career development program designed to prepare students for campus placements and professional careers. Master communication, resume building, LinkedIn optimization, quantitative aptitude, logical reasoning, verbal ability, interview techniques, and personal branding through practical assessments and mock interviews.",
+
+    category: "career",
+    level: "beginner",
+    duration: "1 Month",
+    durationWeeks: 4,
+    hours: "40 Hours",
+
     mode: "Online / Offline",
-    batchOptions: ["Weekday Batch", "Weekend Batch"],
-    technologies: ["Python", "NumPy", "Pandas", "OpenAI API", "LangChain", "Selenium", "Git"],
-    projects: ["AI Interview Simulator", "Automated Report Generator", "AI Productivity Assistant", "Data Scraper & Analyser"],
-    careerPaths: ["Python Developer", "AI Developer", "Automation Specialist", "Data Analyst"],
-    learningOutcomes: [
-      "Write advanced Python code using modern patterns",
-      "Build AI-powered applications using LLM APIs",
-      "Automate workflows and processes",
-      "Work with data using Pandas and NumPy",
-      "Integrate external APIs and services"
+
+    batchOptions: [
+      "Weekday Batch",
+      "Weekend Batch"
+      // "Placement Fast Track"
     ],
-    prerequisites: ["Basic programming knowledge", "Familiarity with any programming language is helpful"],
-    whoIsItFor: ["Students with basic coding background", "Graduates looking to specialise in Python", "Working professionals wanting to automate their work", "Aspiring AI developers"],
+
+    technologies: [
+      "LinkedIn",
+      "Naukri",
+      "Indeed",
+      "ATS Resume Tools"
+    ],
+
+    projects: [
+      "ATS-Friendly Resume",
+      "LinkedIn Profile Optimization",
+      "Career Portfolio",
+      "Mock Interview Performance",
+      "Group Discussion Presentation"
+    ],
+
+    careerPaths: [
+      // "Campus Placement Preparation",
+      "Graduate Trainee",
+      "Software & IT Jobs",
+      "Core Engineering Jobs",
+      "Corporate Professional"
+    ],
+
+    learningOutcomes: [
+      "Communicate confidently in professional environments",
+      "Create ATS-friendly resumes and compelling cover letters",
+      "Optimize LinkedIn profiles for recruiters",
+      "Crack HR and technical interviews using the STAR method",
+      "Improve aptitude, reasoning, and verbal ability",
+      "Develop analytical thinking and problem-solving skills",
+      "Build a professional personal brand and career portfolio",
+      "Gain confidence through mock interviews and assessments"
+    ],
+
+    prerequisites: [
+      "No prior experience required",
+      "Basic English reading and writing skills",
+      "Suitable for students and fresh graduates"
+    ],
+
+    whoIsItFor: [
+      "Engineering students",
+      "Diploma students",
+      "Final-year college students",
+      "Fresh graduates",
+      "Job seekers preparing for placements"
+    ],
+
     syllabus: [
       {
-        title: "Module 1: Python Mastery",
-        topics: ["Advanced data types", "List comprehensions", "Decorators and generators", "File I/O and error handling"]
+        title: "Module 1: Communication & Professional Etiquette",
+        topics: [
+          "Verbal & Non-Verbal Communication",
+          "Active Listening",
+          "Public Speaking",
+          "Digital Communication",
+          "Email Etiquette",
+          "Workplace Ethics",
+          "Professional Behavior",
+          "Cultural Awareness"
+        ]
       },
       {
-        title: "Module 2: Data Processing",
-        topics: ["NumPy arrays and operations", "Pandas DataFrames", "Data cleaning and transformation", "Visualisation basics"]
+        title: "Module 2: Job Search & Personal Branding",
+        topics: [
+          "Resume Writing",
+          "ATS-Friendly Resume",
+          "Cover Letter",
+          "LinkedIn Optimization",
+          "Personal Branding",
+          "Networking Strategies",
+          "Portfolio Development",
+          "Work Sample Collection"
+        ]
       },
       {
-        title: "Module 3: AI & LLM Integration",
-        topics: ["Introduction to AI APIs", "OpenAI & Gemini API", "Prompt engineering", "Building AI tools with LangChain"]
+        title: "Module 3: Interview Preparation",
+        topics: [
+          "Interview Fundamentals",
+          "Behavioral Interviews",
+          "STAR Method",
+          "Technical & HR Interviews",
+          "Mock Interviews",
+          "Handling Difficult Questions",
+          "Salary Negotiation",
+          "Interview Confidence"
+        ]
       },
       {
-        title: "Module 4: Automation",
-        topics: ["Web scraping with BeautifulSoup", "Browser automation with Selenium", "Task scheduling", "Email and file automation"]
+        title: "Module 4: Critical Thinking & Problem Solving",
+        topics: [
+          "Analytical Reasoning",
+          "Critical Thinking",
+          "Decision Making",
+          "Time Management",
+          "Priority Setting",
+          "Conflict Resolution",
+          "Teamwork & Collaboration",
+          "Digital & Financial Literacy"
+        ]
       },
       {
-        title: "Module 5: Projects",
-        topics: ["AI Interview Simulator", "Automated Report Generator", "AI Productivity Assistant", "Final project review"]
+        title: "Module 5: Quantitative Aptitude",
+        topics: [
+          "Number System",
+          "LCM & HCF",
+          "Percentages",
+          "Profit & Loss",
+          "Ratio & Average",
+          "Simple & Compound Interest",
+          "Time & Work",
+          "Time-Speed-Distance",
+          "Equations",
+          "Geometry",
+          "Probability"
+        ]
+      },
+      {
+        title: "Module 6: Logical Reasoning",
+        topics: [
+          "Blood Relations",
+          "Direction Sense",
+          "Coding-Decoding",
+          "Syllogism",
+          "Series & Patterns",
+          "Seating Arrangements",
+          "Cube & Dice",
+          "Scheduling Puzzles",
+          "Statement & Assumption"
+        ]
+      },
+      {
+        title: "Module 7: Verbal Ability",
+        topics: [
+          "Grammar",
+          "Error Spotting",
+          "Sentence Correction",
+          "Voice Change",
+          "Synonyms & Antonyms",
+          "Idioms & Phrases",
+          "Reading Comprehension",
+          "Para Jumbles",
+          "Sentence Completion"
+        ]
+      },
+      {
+        title: "Module 8: Data Interpretation",
+        topics: [
+          "Tables",
+          "Bar Graphs",
+          "Pie Charts",
+          "Line Graphs",
+          "Comparative Analysis",
+          "Percentage Interpretation",
+          "Data Sufficiency",
+          "Data Adequacy"
+        ]
+      },
+      {
+        title: "Final Career Readiness Assessment",
+        topics: [
+          "Aptitude Test",
+          "Logical Reasoning Test",
+          "Verbal Ability Test",
+          "Resume Review",
+          "LinkedIn Review",
+          "Group Discussion",
+          "Mock Technical Interview",
+          "Mock HR Interview",
+          "Career Portfolio Presentation"
+        ]
       }
     ],
+
     faqs: [
-      { question: "Can I take this if I only know basic Python?", answer: "Yes, the course begins with advanced Python before moving to AI and automation." },
-      { question: "Will I build real projects?", answer: "Yes, you will build 4 complete projects included in the curriculum." }
+      {
+        question: "Is this course useful for campus placements?",
+        answer:
+          "Yes. It is specifically designed to prepare students for campus drives, aptitude tests, HR interviews, and technical interviews."
+      },
+      {
+        question: "Will I create my own resume and LinkedIn profile?",
+        answer:
+          "Yes. You'll build an ATS-friendly resume, optimize your LinkedIn profile, and develop a professional career portfolio."
+      },
+      {
+        question: "Are mock interviews included?",
+        answer:
+          "Yes. The course includes HR and technical mock interviews, peer reviews, and personalized feedback."
+      },
+      {
+        question: "Will I receive a certificate?",
+        answer:
+          "Yes. Upon successfully completing the assessments, you'll receive the Nexify Certificate in Career Readiness Program."
+      }
     ],
+
     featured: true,
-    color: "from-violet-600 to-violet-400",
-    icon: "Bot"
+    color: "from-emerald-600 to-teal-500",
+    icon: "BriefcaseBusiness"
   },
   {
     id: "3",
-    slug: "data-analytics-power-bi",
-    name: "Data Analytics with Power BI",
-    shortDescription: "Transform raw data into actionable business insights using Excel, SQL and Power BI.",
-    fullDescription: "A career-focused data analytics course designed to teach data cleaning, analysis, visualisation and dashboard creation. Learn the tools that real businesses use every day.",
-    category: "data",
+    slug: "sql-database-associate",
+    name: "Certificate in SQL Database Associate",
+
+    shortDescription:
+      "Learn SQL, relational databases, data analysis, joins, stored procedures, and database administration from scratch.",
+
+    fullDescription:
+      "A comprehensive beginner-to-intermediate SQL program that teaches relational database design, data modeling, querying, joins, subqueries, window functions, database optimization, security, and administration using industry-standard database systems including MySQL, PostgreSQL, and SQL Server.",
+
+    category: "programming",
     level: "beginner",
-    duration: "2 Months",
-    durationWeeks: 8,
-    hours: "70+ Hours",
+    duration: "1 Month",
+    durationWeeks: 4,
+    hours: "40 Hours",
+
     mode: "Online / Offline",
-    batchOptions: ["Weekday Batch", "Weekend Batch"],
-    technologies: ["Excel", "SQL", "Power BI", "Python Basics", "Power Query"],
-    projects: ["Sales Analytics Dashboard", "Business Performance Report", "HR Analytics Dashboard"],
-    careerPaths: ["Data Analyst", "Business Analyst", "Reporting Analyst", "BI Developer"],
-    learningOutcomes: [
-      "Clean and prepare data using Excel and Power Query",
-      "Write SQL queries to extract insights from databases",
-      "Build professional Power BI dashboards",
-      "Use DAX for calculated measures and KPIs",
-      "Present data stories to business stakeholders"
+
+    batchOptions: [
+      "Weekday Batch",
+      "Weekend Batch",
+      "Fast Track Batch"
     ],
-    prerequisites: ["Basic computer skills", "Familiarity with Excel is helpful but not required"],
-    whoIsItFor: ["Commerce and business students", "Graduates seeking data roles", "Working professionals in operations, finance or marketing", "Anyone who works with data regularly"],
+
+    technologies: [
+      "SQL",
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server"
+    ],
+
+    projects: [
+      "Student Database Management System",
+      "Library Management Database",
+      "E-Commerce Sales Analysis",
+      "Employee Payroll Database",
+      "Hospital Database System"
+    ],
+
+    careerPaths: [
+      "SQL Developer",
+      "Database Associate",
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Backend Developer"
+    ],
+
+    learningOutcomes: [
+      "Understand DBMS and relational database architecture",
+      "Design normalized databases using ER models",
+      "Write DDL, DML, DQL, TCL, and DCL commands",
+      "Retrieve and analyze data using SQL queries",
+      "Master joins, subqueries, CTEs, and window functions",
+      "Create views, indexes, triggers, and stored procedures",
+      "Manage transactions, permissions, backup, and recovery",
+      "Build real-world database-driven applications"
+    ],
+
+    prerequisites: [
+      "No prior SQL knowledge required",
+      "Basic computer skills",
+      "Laptop or desktop recommended"
+    ],
+
+    whoIsItFor: [
+      "Engineering students",
+      "Diploma students",
+      "Aspiring Data Analysts",
+      "Backend development beginners",
+      "Anyone interested in databases"
+    ],
+
     syllabus: [
       {
-        title: "Module 1: Data Fundamentals & Excel",
-        topics: ["Data types and structures", "Excel formulas and functions", "Pivot tables and charts", "Data cleaning techniques"]
+        title: "Module 1: Database Fundamentals & Architecture",
+        topics: [
+          "DBMS & RDBMS",
+          "Tables, Rows & Columns",
+          "Relational Concepts",
+          "ER Diagrams",
+          "Entities & Relationships",
+          "Database Modeling",
+          "Normalization (1NF, 2NF, 3NF)",
+          "MySQL, PostgreSQL & SQL Server"
+        ]
       },
       {
-        title: "Module 2: SQL for Data Analysis",
-        topics: ["Relational database concepts", "SELECT, WHERE, GROUP BY", "JOINs and subqueries", "Aggregate functions"]
+        title: "Module 2: Core SQL Commands",
+        topics: [
+          "CREATE",
+          "ALTER",
+          "DROP",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "Primary Key",
+          "Foreign Key",
+          "UNIQUE & NOT NULL Constraints"
+        ]
       },
       {
-        title: "Module 3: Power BI Essentials",
-        topics: ["Power BI interface and workflow", "Importing and transforming data", "Creating visuals and reports", "Power Query editor"]
+        title: "Module 3: Data Retrieval with SQL",
+        topics: [
+          "SELECT Statement",
+          "WHERE Clause",
+          "LIKE, IN & BETWEEN",
+          "AND / OR Conditions",
+          "ORDER BY",
+          "LIMIT & TOP",
+          "Filtering & Sorting Results"
+        ]
       },
       {
-        title: "Module 4: Advanced Power BI",
-        topics: ["DAX fundamentals", "Calculated columns and measures", "KPI cards and slicers", "Dashboard design best practices"]
+        title: "Module 4: Aggregation & Grouping",
+        topics: [
+          "SUM(), AVG(), COUNT()",
+          "MIN() & MAX()",
+          "GROUP BY",
+          "HAVING Clause",
+          "Business Data Analysis"
+        ]
       },
       {
-        title: "Module 5: Projects & Presentation",
-        topics: ["Sales Analytics Dashboard", "Business Performance Report", "HR Analytics Dashboard", "Presenting insights to stakeholders"]
+        title: "Module 5: Joins & Advanced Queries",
+        topics: [
+          "INNER JOIN",
+          "LEFT & RIGHT JOIN",
+          "FULL OUTER JOIN",
+          "SELF & CROSS JOIN",
+          "Subqueries",
+          "Correlated Queries",
+          "EXISTS",
+          "Common Table Expressions (CTEs)"
+        ]
+      },
+      {
+        title: "Module 6: Advanced SQL Programming",
+        topics: [
+          "String Functions",
+          "Date & Time Functions",
+          "CASE WHEN",
+          "Window Functions",
+          "ROW_NUMBER()",
+          "RANK() & DENSE_RANK()",
+          "LEAD() & LAG()",
+          "Indexes",
+          "Views",
+          "Triggers",
+          "Stored Procedures"
+        ]
+      },
+      {
+        title: "Module 7: Database Administration & Security",
+        topics: [
+          "COMMIT",
+          "ROLLBACK",
+          "SAVEPOINT",
+          "Transaction Management",
+          "GRANT & REVOKE",
+          "User Permissions",
+          "Database Security",
+          "Backup & Recovery",
+          "Maintenance & Integrity"
+        ]
+      },
+      {
+        title: "Practical Lab & Capstone",
+        topics: [
+          "25 SQL Query Exercises",
+          "10 Join Challenges",
+          "5 Database Design Problems",
+          "Performance Optimization Lab",
+          "Real-World Database Project"
+        ]
       }
     ],
+
     faqs: [
-      { question: "Do I need a statistics background?", answer: "No, this course teaches data analysis practically without requiring a statistics degree." },
-      { question: "Is Power BI available for free?", answer: "Yes, Power BI Desktop is free to download and will be used throughout the course." }
+      {
+        question: "Do I need programming knowledge before learning SQL?",
+        answer:
+          "No. This course starts from database fundamentals and is suitable for complete beginners."
+      },
+      {
+        question: "Which database software will I learn?",
+        answer:
+          "You'll primarily practice with MySQL while also understanding PostgreSQL and Microsoft SQL Server concepts."
+      },
+      {
+        question: "Will I work on real database projects?",
+        answer:
+          "Yes. The course includes database design, SQL analysis tasks, and a complete capstone project."
+      },
+      {
+        question: "Is this course useful for Data Analytics?",
+        answer:
+          "Absolutely. SQL is one of the most important skills for Data Analysts, BI Developers, and Backend Developers."
+      }
     ],
+
     featured: true,
-    color: "from-amber-500 to-orange-400",
-    icon: "BarChart3"
-  },
+    color: "from-indigo-700 to-violet-500",
+    icon: "Database"
+  }
+  ,
   {
     id: "4",
     slug: "full-stack-mern",
