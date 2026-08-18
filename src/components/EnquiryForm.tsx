@@ -38,6 +38,8 @@ interface FormErrors {
   phone?: string;
   email?: string;
   course?: string;
+  status?: string;
+  message?: string;
 }
 
 export default function EnquiryForm({ preselectedCourse }: { preselectedCourse?: string }) {
@@ -86,11 +88,11 @@ export default function EnquiryForm({ preselectedCourse }: { preselectedCourse?:
     // setIsSubmitting(false);
     // setIsSuccess(true);
     e.preventDefault();
-  if (!validate()) return;
+    if (!validate()) return;
 
-  const counsellorNumber = "916381983074"; // Replace with your WhatsApp number
+    const counsellorNumber = "916381983074"; // Replace with your WhatsApp number
 
-  const whatsappMessage = `🎓 *New Counselling Enquiry*
+    const whatsappMessage = `🎓 *New Counselling Enquiry*
 
 👤 Name: ${formData.fullName}
 📞 Phone: ${formData.phone}
@@ -104,9 +106,9 @@ ${formData.message || "No message"}
 
 — Sent from Nexify Website`;
 
-  const url = `https://wa.me/${counsellorNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    const url = `https://wa.me/${counsellorNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-  window.open(url, "_blank");
+    window.open(url, "_blank");
   };
 
   const handleChange = (
@@ -182,9 +184,9 @@ ${formData.message || "No message"}
           autoComplete="name"
           className="px-4 py-3 rounded-xl text-sm outline-none transition-all"
           style={{
-            background: "var(--color-surface)",
+            background: "white",
             border: `1px solid ${errors.fullName ? "#f87171" : "var(--color-border)"}`,
-            color: "var(--color-text-primary)",
+            color: "black",
             padding: "10px 5px"
           }}
           required
@@ -215,9 +217,9 @@ ${formData.message || "No message"}
           autoComplete="tel"
           className="px-4 py-3 rounded-xl text-sm outline-none transition-all"
           style={{
-            background: "var(--color-surface)",
+            background: "white",
             border: `1px solid ${errors.phone ? "#f87171" : "var(--color-border)"}`,
-            color: "var(--color-text-primary)",
+            color: "black",
             padding: "10px 5px"
           }}
           required
@@ -248,9 +250,9 @@ ${formData.message || "No message"}
           autoComplete="email"
           className="px-4 py-3 rounded-xl text-sm outline-none transition-all"
           style={{
-            background: "var(--color-surface)",
+            background: "white",
             border: `1px solid ${errors.email ? "#f87171" : "var(--color-border)"}`,
-            color: "var(--color-text-primary)",
+            color: "black",
             padding: "10px 5px"
           }}
           aria-describedby={errors.email ? "email-error" : undefined}
@@ -276,9 +278,9 @@ ${formData.message || "No message"}
           onChange={handleChange}
           className="px-4 py-3 rounded-xl text-sm outline-none transition-all cursor-pointer"
           style={{
-            background: "var(--color-navy-600)",
+            background: "white",
             border: `1px solid ${errors.course ? "#f87171" : "var(--color-border)"}`,
-            color: formData.course ? "var(--color-text-primary)" : "var(--color-text-muted)",
+            color: formData.course ? "black" : "var(--color-text-muted)",
             padding: "10px 5px"
           }}
           required
@@ -286,9 +288,9 @@ ${formData.message || "No message"}
           aria-describedby={errors.course ? "course-error" : undefined}
           aria-invalid={!!errors.course}
         >
-          <option value="" disabled>Select a course</option>
+          <option value="" style={{ background: "var(--color-text-muted)", color: "white" }} disabled>Select a course</option>
           {courseOptions.map(c => (
-            <option key={c} value={c} style={{ background: "#0f1629" }}>{c}</option>
+            <option key={c} value={c} style={{ background: "white", color: "black" }}>{c}</option>
           ))}
         </select>
         {errors.course && (
@@ -311,15 +313,15 @@ ${formData.message || "No message"}
           onChange={handleChange}
           className="px-4 py-3 rounded-xl text-sm outline-none transition-all cursor-pointer"
           style={{
-            background: "var(--color-navy-600)",
-            border: "1px solid var(--color-border)",
-            color: formData.status ? "var(--color-text-primary)" : "var(--color-text-muted)",
+            background: "white",
+            border: `1px solid ${errors.status ? "#f87171" : "var(--color-border)"}`,
+            color: formData.status ? "black" : "var(--color-text-muted)",
             padding: "10px 5px"
           }}
         >
-          <option value="" style={{ background: "#0f1629" }}>Select your current status</option>
+          <option value="" style={{ background: "var(--color-text-muted)", color: "white" }}>Select your current status</option>
           {statusOptions.map(s => (
-            <option key={s} value={s} style={{ background: "#0f1629" }}>{s}</option>
+            <option key={s} value={s} style={{ background: "white", color: "black" }}>{s}</option>
           ))}
         </select>
       </div>
@@ -338,9 +340,9 @@ ${formData.message || "No message"}
           rows={4}
           className="px-4 py-3 rounded-xl text-sm outline-none transition-all resize-none"
           style={{
-            background: "var(--color-surface)",
+            background: "white",
             border: "1px solid var(--color-border)",
-            color: "var(--color-text-primary)",
+            color: "black",
             padding: "10px 5px"
           }}
         />

@@ -50,7 +50,7 @@ export default function Footer() {
               <Link href="/" className="flex items-center w-fit" aria-label="Nexify Institute Home">
                 <div className="relative w-[180px] h-[50px]">
                   <Image
-                    src="/images/nexify-logo.svg"
+                    src="/images/nexify-logo.jpg"
                     alt="THE NEXIFY - Training & Placement"
                     fill
                     className="object-contain object-left"

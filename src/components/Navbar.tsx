@@ -9,9 +9,9 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Courses", href: "/courses" },
-  { label: "Workshops", href: "/workshops" },
-  { label: "Projects", href: "/projects" },
-  { label: "Careers", href: "/careers" },
+  // { label: "Workshops", href: "/workshops" },
+  // { label: "Projects", href: "/projects" },
+  // { label: "Careers", href: "/careers" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" }
 ];
@@ -52,9 +52,10 @@ export default function Navbar() {
           <Link href="/" className="flex items-center group" aria-label="Nexify Institute Home">
             <div className="relative w-[140px] sm:w-[165px] h-[40px] sm:h-[45px]">
               <Image
-                src="/images/nexify-logo.svg"
+                src="/images/nexify-logo.jpg"
                 alt="THE NEXIFY - Training & Placement"
-                fill
+                width={140}
+                height={40}
                 priority
                 className="object-contain object-left"
               />

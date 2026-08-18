@@ -36,7 +36,7 @@ export default function CoursesPage() {
       </section>
 
       {/* Course Grid with Filters */}
-      <section className="section-padding">
+      <section className="section-padding" style={{background: "white"}}>
         <div className="section-container">
           <CourseGrid courses={courses} showFilters={true} />
         </div>

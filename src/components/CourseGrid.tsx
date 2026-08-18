@@ -89,7 +89,7 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
             <Search
               size={18}
               className="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"
-              style={{ color: "var(--color-text-muted)" }}
+              style={{ color: "#0f1629" }}
             />
             <input
               type="text"
@@ -100,8 +100,8 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
               className="w-full pl-12 pr-4 py-3.5 rounded-xl text-sm outline-none transition-all"
               style={{
                 background: "var(--color-surface)",
-                border: "1px solid var(--color-border)",
-                color: "var(--color-text-primary)",
+                border: "1px solid #0f1629",
+                color: "#0f1629",
                 fontFamily: "var(--font-body)",
                 padding: "10px 50px"
               }}
@@ -121,7 +121,7 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
 
           {/* Filter Row */}
           <div className="flex flex-wrap gap-3 items-center">
-            <div className="flex items-center gap-2" style={{ color: "var(--color-text-muted)" }}>
+            <div className="flex items-center gap-2" style={{ color: "#0f1629" }}>
               <SlidersHorizontal size={15} />
               <span className="text-sm">Filters:</span>
             </div>
@@ -134,14 +134,14 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
               className="px-3 py-2 rounded-lg text-sm cursor-pointer outline-none"
               style={{
                 background: "var(--color-surface)",
-                border: "1px solid var(--color-border)",
-                color: "var(--color-text-secondary)",
+                border: "1px solid #0f1629",
+                color: "#0f1629",
                 padding: "7px 5px"
               }}
               aria-label="Filter by category"
             >
               {categories.map(c => (
-                <option key={c.value} value={c.value} style={{ background: "#0f1629" }}>
+                <option key={c.value} value={c.value} style={{ background: "white" }}>
                   {c.label}
                 </option>
               ))}
@@ -155,14 +155,14 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
               className="px-3 py-2 rounded-lg text-sm cursor-pointer outline-none"
               style={{
                 background: "var(--color-surface)",
-                border: "1px solid var(--color-border)",
-                color: "var(--color-text-secondary)",
+                border: "1px solid #0f1629",
+                color: "#0f1629",
                 padding: "7px 5px"
               }}
               aria-label="Filter by level"
             >
               {levels.map(l => (
-                <option key={l.value} value={l.value} style={{ background: "#0f1629" }}>
+                <option key={l.value} value={l.value} style={{ background: "white" }}>
                   {l.label}
                 </option>
               ))}
@@ -176,14 +176,14 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
               className="px-3 py-2 rounded-lg text-sm cursor-pointer outline-none"
               style={{
                 background: "var(--color-surface)",
-                border: "1px solid var(--color-border)",
-                color: "var(--color-text-secondary)",
+                border: "1px solid #0f1629",
+                color: "#0f1629",
                 padding: "7px 5px"
               }}
               aria-label="Filter by duration"
             >
               {durations.map(d => (
-                <option key={d.value} value={d.value} style={{ background: "#0f1629" }}>
+                <option key={d.value} value={d.value} style={{ background: "white" }}>
                   {d.label}
                 </option>
               ))}
@@ -193,7 +193,7 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
               <button
                 onClick={clearFilters}
                 className="px-3 py-2 rounded-lg text-sm flex items-center gap-1.5 transition-colors hover:text-white"
-                style={{ color: "var(--color-text-muted)" }}
+                style={{ color: "red" }}
               >
                 <X size={14} />
                 Clear all
@@ -205,8 +205,8 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
 
       {/* Results Count */}
       {showFilters && (
-        <p className="text-sm" style={{ color: "var(--color-text-muted)" }}>
-          Showing <span style={{ color: "var(--color-text-secondary)" }} className="font-semibold">{filteredCourses.length}</span> course{filteredCourses.length !== 1 ? "s" : ""}
+        <p className="text-sm" style={{ color: "#0f1629" }}>
+          Showing <span style={{ color: "green" }} className="font-semibold">{filteredCourses.length}</span> course{filteredCourses.length !== 1 ? "s" : ""}
         </p>
       )}
 
@@ -232,10 +232,10 @@ export default function CourseGrid({ courses, showFilters = true }: CourseGridPr
           role="status"
           aria-live="polite"
         >
-          <Search size={40} style={{ color: "var(--color-text-muted)" }} />
+          <Search size={40} style={{ color: "#0f1629" }} />
           <div className="text-center">
             <p className="text-lg font-semibold">No courses found</p>
-            <p className="text-sm mt-1" style={{ color: "var(--color-text-muted)" }}>
+            <p className="text-sm mt-1" style={{ color: "#0f1629" }}>
               Try changing your filters or search term.
             </p>
           </div>

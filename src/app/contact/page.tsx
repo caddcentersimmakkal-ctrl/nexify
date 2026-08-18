@@ -52,7 +52,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
       </section>
 
       {/* Main Content Grid */}
-      <section className="section-padding">
+      <section className="section-padding" style={{ background: "white" }}>
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             

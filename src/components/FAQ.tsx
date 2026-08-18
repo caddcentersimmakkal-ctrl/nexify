@@ -22,7 +22,7 @@ export default function FAQSection({ faqs, title = "Frequently Asked Questions" 
       {title && (
         <h2
           className="text-2xl md:text-3xl font-bold tracking-tight"
-          style={{ fontFamily: "var(--font-heading)" }}
+          style={{ fontFamily: "var(--font-heading)", color: "#0f1629" }}
         >
           {title}
         </h2>
@@ -35,7 +35,8 @@ export default function FAQSection({ faqs, title = "Frequently Asked Questions" 
             className="rounded-xl overflow-hidden transition-all"
             style={{
               background: "var(--color-surface)",
-              border: `1px solid ${openId === faq.id ? "rgba(99, 102, 241, 0.3)" : "var(--color-border)"}`
+              border: `1px solid ${openId === faq.id ? "#0f1629" : "rgba(99, 102, 241, 0.3)"}`,
+              padding: "10px"
             }}
           >
             <button
@@ -45,7 +46,7 @@ export default function FAQSection({ faqs, title = "Frequently Asked Questions" 
               id={`faq-btn-${faq.id}`}
               aria-controls={`faq-panel-${faq.id}`}
             >
-              <span className="text-sm font-semibold text-white leading-snug">
+              <span className="text-sm font-semibold text-white leading-snug" style={{color: "#0f1629"}}>
                 {faq.question}
               </span>
               <ChevronDown
@@ -72,7 +73,7 @@ export default function FAQSection({ faqs, title = "Frequently Asked Questions" 
                 >
                   <div
                     className="px-5 pb-5 text-sm leading-relaxed"
-                    style={{ color: "var(--color-text-secondary)" }}
+                    style={{ color: "green" }}
                   >
                     {faq.answer}
                   </div>

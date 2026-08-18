@@ -43,7 +43,7 @@ export default function SyllabusList({ modules }: SyllabusListProps) {
                 >
                   {index + 1}
                 </span>
-                <span className="text-base font-bold text-white tracking-tight">
+                <span className="text-base font-bold text-white tracking-tight" style={{ color: "#0f1629" }}>
                   {module.title}
                 </span>
               </div>
@@ -71,14 +71,14 @@ export default function SyllabusList({ modules }: SyllabusListProps) {
                 >
                   <div
                     className="px-5 pb-5 pt-1 border-t"
-                    style={{ borderColor: "var(--color-border)" }}
+                    style={{ borderColor: "var(--color-border)", padding: "15px" }}
                   >
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2.5 mt-3">
                       {module.topics.map(topic => (
                         <li
                           key={topic}
                           className="flex items-center gap-2.5 text-sm"
-                          style={{ color: "var(--color-text-secondary)" }}
+                          style={{ color: "#0f1629" }}
                         >
                           <CheckCircle2 size={14} className="flex-shrink-0" style={{ color: "#60a5fa" }} />
                           <span>{topic}</span>

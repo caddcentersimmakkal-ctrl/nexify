@@ -60,13 +60,14 @@ export default async function CourseDetailPage({ params }: PageProps) {
   const level = levelBadge[course.level];
 
   return (
-    <div className="pt-20">
+    <div className="pt-20" style={{background: "white"}}>
       {/* Hero */}
       <section
         className="py-16 md:py-24 relative overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, var(--color-navy-700) 0%, var(--color-navy) 100%)",
-          borderBottom: "1px solid var(--color-border)"
+          background: "#0f1629",
+          borderBottom: "1px solid var(--color-border)",
+          marginTop: "100px"
         }}
         aria-labelledby="course-title"
       >
@@ -82,7 +83,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
             <div className="lg:col-span-2 flex flex-col gap-6">
               {/* Breadcrumb */}
               <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm" style={{ color: "var(--color-text-muted)" }}>
-                <Link href="/courses" className="hover:text-white transition-colors">Courses</Link>
+                <Link href="/courses" className="hover:text-white transition-colors" style={{ color: "var(--color-text-secondary)" }}>Courses</Link>
                 <span>/</span>
                 <span style={{ color: "var(--color-text-secondary)" }}>{course.name}</span>
               </nav>
@@ -142,7 +143,8 @@ export default async function CourseDetailPage({ params }: PageProps) {
                     style={{
                       background: "var(--color-surface)",
                       border: "1px solid var(--color-border)",
-                      color: "var(--color-text-secondary)"
+                      color: "var(--color-text-secondary)",
+                      padding: "6px 12px"
                     }}
                   >
                     {tech}
@@ -203,7 +205,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
       </section>
 
       {/* Page Body */}
-      <div className="section-container py-16">
+      <div className="section-container py-16" style={{color: "#0f1629"}}>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 flex flex-col gap-16">
 
@@ -212,11 +214,11 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="overview-heading"
                 className="text-2xl font-bold mb-4"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 Course Overview
               </h2>
-              <p style={{ color: "var(--color-text-secondary)" }} className="leading-relaxed">
+              <p style={{ color: "#0f1629" }} className="leading-relaxed">
                 {course.fullDescription} This course is designed to be practical and project-focused, ensuring you gain real, applicable skills rather than just theoretical knowledge.
               </p>
             </section>
@@ -226,7 +228,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="who-heading"
                 className="text-2xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 Who Is This Course For?
               </h2>
@@ -236,8 +238,10 @@ export default async function CourseDetailPage({ params }: PageProps) {
                     key={who}
                     className="flex items-center gap-3 p-4 rounded-xl"
                     style={{
-                      background: "var(--color-surface)",
-                      border: "1px solid var(--color-border)"
+                      background: "#0f1629",
+                      border: "1px solid var(--color-border)",
+                      padding: "6px 12px",
+                      color: "white"
                     }}
                   >
                     <CheckCircle size={16} style={{ color: "#4ade80" }} aria-hidden="true" />
@@ -252,14 +256,14 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="prereq-heading"
                 className="text-2xl font-bold mb-4"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 Prerequisites
               </h2>
               <ul className="flex flex-col gap-2">
                 {course.prerequisites.map(prereq => (
-                  <li key={prereq} className="flex items-start gap-3 text-sm" style={{ color: "var(--color-text-secondary)" }}>
-                    <span className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0" style={{ background: "var(--color-indigo)" }} aria-hidden="true" />
+                  <li key={prereq} className="flex items-start gap-3 text-sm" style={{ color: "#0f1629", display: "flex", alignItems: "center" }}>
+                    <span className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0" style={{ background: "green" }} aria-hidden="true" />
                     {prereq}
                   </li>
                 ))}
@@ -271,7 +275,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="outcomes-heading"
                 className="text-2xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 What You Will Learn
               </h2>
@@ -282,11 +286,12 @@ export default async function CourseDetailPage({ params }: PageProps) {
                     className="flex items-start gap-3 p-4 rounded-xl"
                     style={{
                       background: "rgba(59,130,246,0.06)",
-                      border: "1px solid rgba(59,130,246,0.12)"
+                      border: "1px solid rgba(59,130,246,0.12)",
+                      padding: "6px 12px"
                     }}
                   >
                     <CheckCircle size={16} style={{ color: "#60a5fa", flexShrink: 0, marginTop: 2 }} aria-hidden="true" />
-                    <span className="text-sm" style={{ color: "var(--color-text-secondary)" }}>{outcome}</span>
+                    <span className="text-sm" style={{ color: "#0f1629" }}>{outcome}</span>
                   </div>
                 ))}
               </div>
@@ -297,7 +302,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="syllabus-heading"
                 className="text-2xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 Complete Syllabus
               </h2>
@@ -309,7 +314,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="projects-heading"
                 className="text-2xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 Projects in This Course
               </h2>
@@ -319,8 +324,10 @@ export default async function CourseDetailPage({ params }: PageProps) {
                     key={project}
                     className="flex items-center gap-4 p-4 rounded-xl"
                     style={{
-                      background: "var(--color-surface)",
-                      border: "1px solid var(--color-border)"
+                      background: "#0f1629",
+                      border: "1px solid var(--color-border)",
+                      padding: "5px",
+                      color: "white"
                     }}
                   >
                     <div
@@ -341,7 +348,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
               <h2
                 id="careers-heading"
                 className="text-2xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-heading)" }}
+                style={{ fontFamily: "var(--font-heading)", marginBottom: "15px", color: "#0f1629" }}
               >
                 Career Paths After This Course
               </h2>
@@ -353,10 +360,11 @@ export default async function CourseDetailPage({ params }: PageProps) {
                     style={{
                       background: "var(--gradient-brand-subtle)",
                       border: "1px solid rgba(99,102,241,0.2)",
-                      color: "var(--color-text-primary)"
+                      color: "#0f1629",
+                      padding: "10px"
                     }}
                   >
-                    <Briefcase size={14} style={{ color: "var(--color-indigo)" }} aria-hidden="true" />
+                    <Briefcase size={14} style={{ color: "#0f1629" }} aria-hidden="true" />
                     {path}
                   </div>
                 ))}
@@ -365,7 +373,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
 
             {/* FAQ */}
             {course.faqs.length > 0 && (
-              <section aria-labelledby="faq-heading">
+              <section aria-labelledby="faq-heading" style={{marginBottom: "50px"}}>
                 <FAQSection
                   faqs={course.faqs.map((f, i) => ({
                     id: `${course.slug}-faq-${i}`,
@@ -379,7 +387,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
             )}
 
             {/* Final CTA */}
-            <section aria-labelledby="course-cta-heading">
+            {/* <section aria-labelledby="course-cta-heading">
               <CTASection
                 title="Interested in"
                 titleHighlight={course.name + "?"}
@@ -391,7 +399,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
                 secondaryCta={{ label: "Browse All Courses", href: "/courses" }}
                 variant="gradient"
               />
-            </section>
+            </section> */}
           </div>
 
           {/* Right sidebar — sticky on desktop */}
@@ -416,10 +424,10 @@ export default async function CourseDetailPage({ params }: PageProps) {
                     <div
                       key={item.label}
                       className="flex items-center justify-between"
-                      style={{ borderBottom: "1px solid var(--color-border)", paddingBottom: "12px" }}
+                      style={{ borderBottom: "1px solid white", paddingBottom: "12px" }}
                     >
-                      <span style={{ color: "var(--color-text-muted)" }}>{item.label}</span>
-                      <span className="font-semibold">{item.value}</span>
+                      <span style={{ color: "white" }}>{item.label}</span>
+                      <span className="font-semibold" style={{ color: "white" }}>{item.value}</span>
                     </div>
                   ))}
                 </div>

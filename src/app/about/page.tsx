@@ -94,7 +94,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story, Mission & Vision */}
-      <section className="section-padding" aria-labelledby="story-heading">
+      <section className="section-padding" aria-labelledby="story-heading" style={{ background: "white" }}>
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Story Card */}
@@ -171,7 +171,7 @@ export default function AboutPage() {
       </section>
 
       {/* Learning Philosophy */}
-      <section
+      {/* <section
         className="section-padding"
         style={{ background: "var(--color-surface)", borderTop: "1px solid var(--color-border)", borderBottom: "1px solid var(--color-border)" }}
         aria-labelledby="philosophy-heading"
@@ -213,7 +213,7 @@ export default function AboutPage() {
             })}
           </StaggerContainer>
         </div>
-      </section>
+      </section> */}
 
       {/* What Makes Nexify Different */}
       <section className="section-padding" aria-labelledby="differentiators-heading">
@@ -249,7 +249,7 @@ export default function AboutPage() {
       </section>
 
       {/* Trainers Section */}
-      <section
+      {/* <section
         className="section-padding"
         style={{ background: "var(--color-navy-800)", borderTop: "1px solid var(--color-border)" }}
         aria-labelledby="trainers-heading"
@@ -273,10 +273,10 @@ export default function AboutPage() {
             ))}
           </StaggerContainer>
         </div>
-      </section>
+      </section> */}
 
       {/* Final CTA */}
-      <section className="section-padding" aria-labelledby="about-cta-heading">
+      <section className="section-padding" aria-labelledby="about-cta-heading" style={{background: "white"}}>
         <div className="section-container">
           <AnimatedSection>
             <CTASection
