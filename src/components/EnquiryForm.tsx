@@ -62,8 +62,8 @@ export default function EnquiryForm({ preselectedCourse }: { preselectedCourse?:
     if (!formData.fullName.trim() || formData.fullName.trim().length < 2) {
       newErrors.fullName = "Please enter your full name.";
     }
-    if (!formData.phone.trim() || !/^\+?[0-9\s-]{7,15}$/.test(formData.phone.trim())) {
-      newErrors.phone = "Please enter a valid phone number.";
+    if (!/^[6-9]\d{9}$/.test(formData.phone.trim())) {
+      newErrors.phone = "Please enter a valid 10-digit mobile number.";
     }
     if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = "Please enter a valid email address.";
