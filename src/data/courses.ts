@@ -51,7 +51,6 @@ export const courses: Course[] = [
     batchOptions: [
       "Weekday Batch",
       "Weekend Batch"
-      // "Fast Track Batch"
     ],
 
     technologies: [
@@ -717,7 +716,6 @@ export const courses: Course[] = [
     batchOptions: [
       "Weekday Batch",
       "Weekend Batch",
-      "Fast Track Batch"
     ],
 
     technologies: [
@@ -878,7 +876,6 @@ export const courses: Course[] = [
     batchOptions: [
       "Weekday Batch",
       "Weekend Batch",
-      "Fast Track Batch"
     ],
 
     technologies: [
@@ -1040,7 +1037,6 @@ export const courses: Course[] = [
     batchOptions: [
       "Weekday Batch",
       "Weekend Batch",
-      "Fast Track Batch"
     ],
 
     technologies: [
@@ -1228,7 +1224,6 @@ export const courses: Course[] = [
   //   batchOptions: [
   //     "Weekday Batch",
   //     "Weekend Batch",
-  //     "Fast Track Batch"
   //   ],
 
   //   technologies: [
@@ -1398,7 +1393,6 @@ export const courses: Course[] = [
     batchOptions: [
       "Weekday Batch",
       "Weekend Batch",
-      "Fast Track Batch"
     ],
 
     technologies: [
@@ -1613,7 +1607,6 @@ export const courses: Course[] = [
     batchOptions: [
       "Weekday Batch",
       "Weekend Batch",
-      "Fast Track Batch"
     ],
 
     technologies: [
@@ -1791,7 +1784,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Fast Track Batch"
   ],
 
   technologies: [
@@ -2003,7 +1995,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Fast Track Batch"
   ],
 
   technologies: [
@@ -2219,7 +2210,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Fast Track Batch"
   ],
 
   technologies: [
@@ -2460,7 +2450,6 @@ export const courses: Course[] = [
   // batchOptions: [
   //   "Weekday Batch",
   //   "Weekend Batch",
-  //   "Fast Track Batch"
   // ],
 
   // technologies: [
@@ -2666,7 +2655,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Fast Track Batch"
   ],
 
   technologies: [
@@ -2852,7 +2840,6 @@ export const courses: Course[] = [
   // batchOptions: [
   //   "Weekday Batch",
   //   "Weekend Batch",
-  //   "Corporate Fast Track"
   // ],
 
   // technologies: [
@@ -3069,7 +3056,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -3286,7 +3272,6 @@ export const courses: Course[] = [
   // batchOptions: [
   //   "Weekday Batch",
   //   "Weekend Batch",
-  //   "Corporate Fast Track"
   // ],
 
   // technologies: [
@@ -3533,7 +3518,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -3727,7 +3711,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -3961,7 +3944,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -4186,7 +4168,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -4391,7 +4372,6 @@ export const courses: Course[] = [
   // batchOptions: [
   //   "Weekday Batch",
   //   "Weekend Batch",
-  //   "Corporate Fast Track"
   // ],
 
   // technologies: [
@@ -4573,7 +4553,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -4721,7 +4700,7 @@ export const courses: Course[] = [
         "Branching & Pull Requests",
         "Docker & Docker Compose",
         "Environment Variables",
-        "Full Stack Containerization",
+        "AWS Fundamentals",
         "Ollama",
         "Local Gemma & Llama Models",
         "FastAPI + Ollama Integration",
@@ -4815,7 +4794,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -5063,7 +5041,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -5309,7 +5286,6 @@ export const courses: Course[] = [
   batchOptions: [
     "Weekday Batch",
     "Weekend Batch",
-    "Corporate Fast Track"
   ],
 
   technologies: [
@@ -5548,8 +5524,7 @@ export const courses: Course[] = [
 
   batchOptions: [
     "Weekday Batch",
-    "Weekend Batch",
-    "Corporate Fast Track"
+    "Weekend Batch"
   ],
 
   technologies: [
@@ -5797,8 +5772,7 @@ export const courses: Course[] = [
 
   batchOptions: [
     "Weekday Batch",
-    "Weekend Batch",
-    "Corporate Fast Track"
+    "Weekend Batch"
   ],
 
   technologies: [
@@ -6053,7 +6027,7 @@ export const courses: Course[] = [
   featured: true,
   color: "from-purple-700 to-indigo-600",
   icon: "BrainCircuit"
-}
+  }
 
 
 ];

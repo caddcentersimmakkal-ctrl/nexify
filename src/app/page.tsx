@@ -164,11 +164,15 @@ function HeroSection() {
 
 function HeroVisualCard() {
   const cards = [
-    { icon: Code, label: "Programming", sub: "Python · Java · C++", color: "from-[#1686A0] to-[#78C043]" },
-    { icon: Database, label: "Data Analytics", sub: "SQL · Power BI · Excel", color: "from-[#202C48] to-[#1686A0]" },
-    { icon: Layers, label: "Full Stack Dev", sub: "MERN · Django · Spring", color: "from-[#1686A0] to-[#286A3D]" },
-    { icon: Brain, label: "AI & Automation", sub: "LangChain · Python", color: "from-[#286A3D] to-[#78C043]" },
-    { icon: Palette, label: "UI/UX Design", sub: "Figma · Design Systems", color: "from-[#1686A0] to-[#78C043]" }
+    // { icon: Code, label: "Programming", sub: "Python · Java · C++", color: "from-[#1686A0] to-[#78C043]" },
+    // { icon: Database, label: "Data Analytics", sub: "SQL · Power BI · Excel", color: "from-[#202C48] to-[#1686A0]" },
+    // { icon: Layers, label: "Full Stack Dev", sub: "MERN · Django · Spring", color: "from-[#1686A0] to-[#286A3D]" },
+    // { icon: Brain, label: "AI & Automation", sub: "LangChain · Python", color: "from-[#286A3D] to-[#78C043]" },
+    // { icon: Palette, label: "UI/UX Design", sub: "Figma · Design Systems", color: "from-[#1686A0] to-[#78C043]" }
+    { icon: Brain, label: "AI Powered Full Stack", sub: "Python · Java · MERN · MEAN", color: "from-[#1686A0] to-[#78C043]" },
+    { icon: Database, label: "Data Science", sub: "Machine Learning · Deep Learning · AI", color: "from-[#202C48] to-[#1686A0]" },
+    { icon: Layers, label: "Data Analytics", sub: "Power BI · SQL · Excel", color: "from-[#1686A0] to-[#286A3D]" },
+    { icon: Code, label: "Software Development", sub: "C · C++ · Java · Python", color: "from-[#286A3D] to-[#78C043]" },
   ];
 
   return (
