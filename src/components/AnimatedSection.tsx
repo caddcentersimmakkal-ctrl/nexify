@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { ReactNode } from "react";
 
 interface AnimatedSectionProps {
@@ -13,35 +13,45 @@ interface AnimatedSectionProps {
 const variants = {
   up: {
     hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0 }
+    visible: { opacity: 1, y: 0 },
   },
+
   left: {
     hidden: { opacity: 0, x: -40 },
-    visible: { opacity: 1, x: 0 }
+    visible: { opacity: 1, x: 0 },
   },
+
   right: {
     hidden: { opacity: 0, x: 40 },
-    visible: { opacity: 1, x: 0 }
+    visible: { opacity: 1, x: 0 },
   },
+
   fade: {
     hidden: { opacity: 0 },
-    visible: { opacity: 1 }
-  }
+    visible: { opacity: 1 },
+  },
 };
 
 export default function AnimatedSection({
   children,
   className = "",
   delay = 0,
-  direction = "up"
+  direction = "up",
 }: AnimatedSectionProps) {
   return (
     <motion.div
       className={className}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.6, delay, ease: [0.21, 0.47, 0.32, 0.98] }}
+      viewport={{
+        once: true,
+        margin: "-80px",
+      }}
+      transition={{
+        duration: 0.6,
+        delay,
+        ease: [0.21, 0.47, 0.32, 0.98],
+      }}
       variants={variants[direction]}
     >
       {children}
@@ -49,28 +59,33 @@ export default function AnimatedSection({
   );
 }
 
-export function StaggerContainer({
-  children,
-  className = "",
-  staggerDelay = 0.1
-}: {
+/* =========================================================
+   STAGGER CONTAINER
+========================================================= */
+
+interface StaggerContainerProps {
   children: ReactNode;
   className?: string;
   staggerDelay?: number;
-}) {
+}
+
+export function StaggerContainer({
+  children,
+  className = "",
+  staggerDelay = 0.08,
+}: StaggerContainerProps) {
   return (
     <motion.div
       className={className}
       initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-80px" }}
+      animate="visible"
       variants={{
         hidden: {},
         visible: {
           transition: {
-            staggerChildren: staggerDelay
-          }
-        }
+            staggerChildren: staggerDelay,
+          },
+        },
       }}
     >
       {children}
@@ -78,19 +93,43 @@ export function StaggerContainer({
   );
 }
 
-export function StaggerItem({
-  children,
-  className = ""
-}: {
+/* =========================================================
+   STAGGER ITEM
+========================================================= */
+
+interface StaggerItemProps {
   children: ReactNode;
   className?: string;
-}) {
+}
+
+export function StaggerItem({
+  children,
+  className = "",
+}: StaggerItemProps) {
   return (
     <motion.div
+      layout
       className={className}
       variants={{
-        hidden: { opacity: 0, y: 32 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] } }
+        hidden: {
+          opacity: 0,
+          y: 24,
+        },
+
+        visible: {
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 0.4,
+            ease: [0.21, 0.47, 0.32, 0.98],
+          },
+        },
+      }}
+      transition={{
+        layout: {
+          duration: 0.35,
+          ease: [0.21, 0.47, 0.32, 0.98],
+        },
       }}
     >
       {children}

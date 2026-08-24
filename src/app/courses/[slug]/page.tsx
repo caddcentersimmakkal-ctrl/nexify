@@ -67,7 +67,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
         style={{
           background: "#0f1629",
           borderBottom: "1px solid var(--color-border)",
-          marginTop: "100px"
+          // marginTop: "100px"
         }}
         aria-labelledby="course-title"
       >
