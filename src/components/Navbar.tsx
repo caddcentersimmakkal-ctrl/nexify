@@ -54,7 +54,7 @@ export default function Navbar() {
               <Image
                 src="/images/nexify-logo.jpg"
                 alt="THE NEXIFY - Training & Placement"
-                width={140}
+                width={240}
                 height={40}
                 priority
                 className="object-contain object-left"

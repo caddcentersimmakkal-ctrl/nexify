@@ -20,7 +20,7 @@ export default function SectionHeader({
   const alignClass = align === "center" ? "text-center items-center" : "text-left items-start";
 
   return (
-    <div id={id} className={`flex flex-col gap-4 ${alignClass} ${className}`} style={{ marginBottom: "20px", paddingTop: "100px"}}>
+    <div id={id} className={`flex flex-col gap-4 ${alignClass} ${className}`}>
       {badge && (
         <span className="badge badge-green">
           {badge}
