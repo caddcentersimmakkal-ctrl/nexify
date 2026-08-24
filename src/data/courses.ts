@@ -1206,176 +1206,176 @@ export const courses: Course[] = [
     color: "from-purple-700 to-fuchsia-500",
     icon: "Sparkles"
   },
-  {
-    id: "7",
-    slug: "graphic-designer",
-    name: "Certificate in Graphic Designer",
+  // {
+  //   id: "7",
+  //   slug: "graphic-designer",
+  //   name: "Certificate in Graphic Designer",
 
-    shortDescription:
-      "Master Photoshop, Illustrator, InDesign, Figma, branding, social media design, and professional portfolio creation.",
+  //   shortDescription:
+  //     "Master Photoshop, Illustrator, InDesign, Figma, branding, social media design, and professional portfolio creation.",
 
-    fullDescription:
-      "A complete graphic design certification program that teaches visual design principles, typography, color theory, Adobe Creative Suite, branding, print design, digital marketing creatives, packaging, and portfolio development through real-world client projects.",
+  //   fullDescription:
+  //     "A complete graphic design certification program that teaches visual design principles, typography, color theory, Adobe Creative Suite, branding, print design, digital marketing creatives, packaging, and portfolio development through real-world client projects.",
 
-    category: "design",
-    level: "beginner",
-    duration: "1.5 Months",
-    durationWeeks: 6,
-    hours: "60 Hours",
+  //   category: "design",
+  //   level: "beginner",
+  //   duration: "1.5 Months",
+  //   durationWeeks: 6,
+  //   hours: "60 Hours",
 
-    mode: "Online / Offline",
+  //   mode: "Online / Offline",
 
-    batchOptions: [
-      "Weekday Batch",
-      "Weekend Batch",
-      "Fast Track Batch"
-    ],
+  //   batchOptions: [
+  //     "Weekday Batch",
+  //     "Weekend Batch",
+  //     "Fast Track Batch"
+  //   ],
 
-    technologies: [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Adobe InDesign",
-      "Figma"
-    ],
+  //   technologies: [
+  //     "Adobe Photoshop",
+  //     "Adobe Illustrator",
+  //     "Adobe InDesign",
+  //     "Figma"
+  //   ],
 
-    projects: [
-      "Brand Identity Design",
-      "Professional Logo Design",
-      "Social Media Campaign",
-      "Marketing Poster & Flyer",
-      "Packaging Design",
-      "Brochure & Magazine Layout",
-      "Digital Advertisement Creative",
-      "Portfolio Development"
-    ],
+  //   projects: [
+  //     "Brand Identity Design",
+  //     "Professional Logo Design",
+  //     "Social Media Campaign",
+  //     "Marketing Poster & Flyer",
+  //     "Packaging Design",
+  //     "Brochure & Magazine Layout",
+  //     "Digital Advertisement Creative",
+  //     "Portfolio Development"
+  //   ],
 
-    careerPaths: [
-      "Graphic Designer",
-      "Brand Designer",
-      "Visual Designer",
-      "Social Media Designer",
-      "Freelance Creative Designer"
-    ],
+  //   careerPaths: [
+  //     "Graphic Designer",
+  //     "Brand Designer",
+  //     "Visual Designer",
+  //     "Social Media Designer",
+  //     "Freelance Creative Designer"
+  //   ],
 
-    learningOutcomes: [
-      "Understand professional design principles and visual hierarchy",
-      "Apply color theory and typography in modern designs",
-      "Create logos, icons, and vector illustrations using Illustrator",
-      "Edit, retouch, and manipulate images in Photoshop",
-      "Design brochures, magazines, and print-ready layouts in InDesign",
-      "Build branding systems and visual identity guidelines",
-      "Create social media creatives, web banners, and marketing assets",
-      "Develop a professional portfolio for freelance and job opportunities"
-    ],
+  //   learningOutcomes: [
+  //     "Understand professional design principles and visual hierarchy",
+  //     "Apply color theory and typography in modern designs",
+  //     "Create logos, icons, and vector illustrations using Illustrator",
+  //     "Edit, retouch, and manipulate images in Photoshop",
+  //     "Design brochures, magazines, and print-ready layouts in InDesign",
+  //     "Build branding systems and visual identity guidelines",
+  //     "Create social media creatives, web banners, and marketing assets",
+  //     "Develop a professional portfolio for freelance and job opportunities"
+  //   ],
 
-    prerequisites: [
-      "No prior design experience required",
-      "Basic computer skills",
-      "Laptop recommended for Adobe software"
-    ],
+  //   prerequisites: [
+  //     "No prior design experience required",
+  //     "Basic computer skills",
+  //     "Laptop recommended for Adobe software"
+  //   ],
 
-    whoIsItFor: [
-      "College students",
-      "Creative professionals",
-      "Marketing enthusiasts",
-      "Aspiring graphic designers",
-      "Freelancers and entrepreneurs"
-    ],
+  //   whoIsItFor: [
+  //     "College students",
+  //     "Creative professionals",
+  //     "Marketing enthusiasts",
+  //     "Aspiring graphic designers",
+  //     "Freelancers and entrepreneurs"
+  //   ],
 
-    syllabus: [
-      {
-        title: "Module 1: Core Design Principles",
-        topics: [
-          "Elements of Design",
-          "Line, Shape, Form & Texture",
-          "Space & Composition",
-          "Balance & Contrast",
-          "Emphasis & Movement",
-          "Proportion & Visual Hierarchy",
-          "Color Theory & Psychology",
-          "RGB & CMYK",
-          "Typography",
-          "Font Pairing & Spacing"
-        ]
-      },
-      {
-        title: "Module 2: Software & Technical Skills",
-        topics: [
-          "Adobe Photoshop",
-          "Raster Image Editing",
-          "Retouching & Manipulation",
-          "Layers & Masking",
-          "Image Compositing",
-          "Adobe Illustrator",
-          "Vector Graphics",
-          "Logo & Icon Design",
-          "Adobe InDesign",
-          "Magazine & Brochure Design",
-          "Print Production",
-          "Figma Digital Layouts"
-        ]
-      },
-      {
-        title: "Module 3: Applied Projects & Specialization",
-        topics: [
-          "Branding & Visual Identity",
-          "Logo Suites",
-          "Brand Guidelines",
-          "Packaging Design",
-          "Social Media Creatives",
-          "Marketing Assets",
-          "Web Banner Design",
-          "Advertisement Design",
-          "Pre-Press Setup",
-          "Print-Ready File Formats",
-          "Client Briefs",
-          "Freelancing Basics"
-        ]
-      },
-      {
-        title: "Final Portfolio Project",
-        topics: [
-          "Brand Identity Design",
-          "Professional Logo",
-          "Social Media Campaign",
-          "Marketing Poster & Flyer",
-          "Brochure or Magazine",
-          "Packaging Design",
-          "Print-Ready Artwork",
-          "Digital Advertisement",
-          "AI-Assisted Design Workflow",
-          "Portfolio Presentation"
-        ]
-      }
-    ],
+  //   syllabus: [
+  //     {
+  //       title: "Module 1: Core Design Principles",
+  //       topics: [
+  //         "Elements of Design",
+  //         "Line, Shape, Form & Texture",
+  //         "Space & Composition",
+  //         "Balance & Contrast",
+  //         "Emphasis & Movement",
+  //         "Proportion & Visual Hierarchy",
+  //         "Color Theory & Psychology",
+  //         "RGB & CMYK",
+  //         "Typography",
+  //         "Font Pairing & Spacing"
+  //       ]
+  //     },
+  //     {
+  //       title: "Module 2: Software & Technical Skills",
+  //       topics: [
+  //         "Adobe Photoshop",
+  //         "Raster Image Editing",
+  //         "Retouching & Manipulation",
+  //         "Layers & Masking",
+  //         "Image Compositing",
+  //         "Adobe Illustrator",
+  //         "Vector Graphics",
+  //         "Logo & Icon Design",
+  //         "Adobe InDesign",
+  //         "Magazine & Brochure Design",
+  //         "Print Production",
+  //         "Figma Digital Layouts"
+  //       ]
+  //     },
+  //     {
+  //       title: "Module 3: Applied Projects & Specialization",
+  //       topics: [
+  //         "Branding & Visual Identity",
+  //         "Logo Suites",
+  //         "Brand Guidelines",
+  //         "Packaging Design",
+  //         "Social Media Creatives",
+  //         "Marketing Assets",
+  //         "Web Banner Design",
+  //         "Advertisement Design",
+  //         "Pre-Press Setup",
+  //         "Print-Ready File Formats",
+  //         "Client Briefs",
+  //         "Freelancing Basics"
+  //       ]
+  //     },
+  //     {
+  //       title: "Final Portfolio Project",
+  //       topics: [
+  //         "Brand Identity Design",
+  //         "Professional Logo",
+  //         "Social Media Campaign",
+  //         "Marketing Poster & Flyer",
+  //         "Brochure or Magazine",
+  //         "Packaging Design",
+  //         "Print-Ready Artwork",
+  //         "Digital Advertisement",
+  //         "AI-Assisted Design Workflow",
+  //         "Portfolio Presentation"
+  //       ]
+  //     }
+  //   ],
 
-    faqs: [
-      {
-        question: "Do I need drawing skills to become a graphic designer?",
-        answer:
-          "No. The course focuses on digital design using professional software, so drawing skills are not mandatory."
-      },
-      {
-        question: "Which Adobe software will I learn?",
-        answer:
-          "You'll learn Adobe Photoshop, Illustrator, InDesign, and Figma for complete graphic design workflows."
-      },
-      {
-        question: "Will I build a professional portfolio?",
-        answer:
-          "Yes. You'll complete multiple branding and marketing projects to create an industry-ready design portfolio."
-      },
-      {
-        question: "Is this course suitable for freelancing?",
-        answer:
-          "Absolutely. The course includes client briefs, presentation skills, and freelancing fundamentals."
-      }
-    ],
+  //   faqs: [
+  //     {
+  //       question: "Do I need drawing skills to become a graphic designer?",
+  //       answer:
+  //         "No. The course focuses on digital design using professional software, so drawing skills are not mandatory."
+  //     },
+  //     {
+  //       question: "Which Adobe software will I learn?",
+  //       answer:
+  //         "You'll learn Adobe Photoshop, Illustrator, InDesign, and Figma for complete graphic design workflows."
+  //     },
+  //     {
+  //       question: "Will I build a professional portfolio?",
+  //       answer:
+  //         "Yes. You'll complete multiple branding and marketing projects to create an industry-ready design portfolio."
+  //     },
+  //     {
+  //       question: "Is this course suitable for freelancing?",
+  //       answer:
+  //         "Absolutely. The course includes client briefs, presentation skills, and freelancing fundamentals."
+  //     }
+  //   ],
 
-    featured: true,
-    color: "from-pink-600 to-rose-500",
-    icon: "Palette"
-  },
+  //   featured: true,
+  //   color: "from-pink-600 to-rose-500",
+  //   icon: "Palette"
+  // },
   {
     id: "8",
     slug: "power-bi-business-intelligence-professional",
@@ -2438,212 +2438,212 @@ export const courses: Course[] = [
   color: "from-red-600 to-rose-500",
   icon: "Triangle"
   },
-  {
-  id: "13",
-  slug: "ui-ux-designer",
-  name: "Professional Certificate in UI/UX Designer",
+  // {
+  // id: "13",
+  // slug: "ui-ux-designer",
+  // name: "Professional Certificate in UI/UX Designer",
 
-  shortDescription:
-    "Master user research, wireframing, Figma, design systems, prototyping, usability testing, and portfolio-ready UX case studies.",
+  // shortDescription:
+  //   "Master user research, wireframing, Figma, design systems, prototyping, usability testing, and portfolio-ready UX case studies.",
 
-  fullDescription:
-    "A comprehensive UI/UX design program that teaches design thinking, user research, information architecture, wireframing, visual design, interactive prototyping, accessibility, usability testing, and developer handoff. Build complete end-to-end UX case studies and a professional design portfolio using industry-standard tools.",
+  // fullDescription:
+  //   "A comprehensive UI/UX design program that teaches design thinking, user research, information architecture, wireframing, visual design, interactive prototyping, accessibility, usability testing, and developer handoff. Build complete end-to-end UX case studies and a professional design portfolio using industry-standard tools.",
 
-  category: "design",
-  level: "intermediate",
-  duration: "2 Months",
-  durationWeeks: 8,
-  hours: "80 Hours",
+  // category: "design",
+  // level: "intermediate",
+  // duration: "2 Months",
+  // durationWeeks: 8,
+  // hours: "80 Hours",
 
-  mode: "Online / Offline",
+  // mode: "Online / Offline",
 
-  batchOptions: [
-    "Weekday Batch",
-    "Weekend Batch",
-    "Fast Track Batch"
-  ],
+  // batchOptions: [
+  //   "Weekday Batch",
+  //   "Weekend Batch",
+  //   "Fast Track Batch"
+  // ],
 
-  technologies: [
-    "Figma",
-    "Adobe XD",
-    "Auto Layout",
-    "Design Systems",
-    "WCAG",
-    "Prototyping"
-  ],
+  // technologies: [
+  //   "Figma",
+  //   "Adobe XD",
+  //   "Auto Layout",
+  //   "Design Systems",
+  //   "WCAG",
+  //   "Prototyping"
+  // ],
 
-  projects: [
-    "Mobile App UI/UX Design",
-    "Responsive Website Redesign",
-    "E-Commerce UX Case Study",
-    "Design System Creation",
-    "Interactive High-Fidelity Prototype"
-  ],
+  // projects: [
+  //   "Mobile App UI/UX Design",
+  //   "Responsive Website Redesign",
+  //   "E-Commerce UX Case Study",
+  //   "Design System Creation",
+  //   "Interactive High-Fidelity Prototype"
+  // ],
 
-  careerPaths: [
-    "UI Designer",
-    "UX Designer",
-    "Product Designer",
-    "Interaction Designer",
-    "UX Researcher"
-  ],
+  // careerPaths: [
+  //   "UI Designer",
+  //   "UX Designer",
+  //   "Product Designer",
+  //   "Interaction Designer",
+  //   "UX Researcher"
+  // ],
 
-  learningOutcomes: [
-    "Apply the complete Design Thinking process to digital products",
-    "Conduct user research using interviews, surveys, and journey mapping",
-    "Create user personas, empathy maps, and information architecture",
-    "Design low and high-fidelity wireframes in Figma",
-    "Build interactive prototypes with Auto Layout and component libraries",
-    "Develop accessible, responsive interfaces using design systems",
-    "Perform usability testing and iterate designs using user feedback",
-    "Create professional UX case studies and portfolio presentations"
-  ],
+  // learningOutcomes: [
+  //   "Apply the complete Design Thinking process to digital products",
+  //   "Conduct user research using interviews, surveys, and journey mapping",
+  //   "Create user personas, empathy maps, and information architecture",
+  //   "Design low and high-fidelity wireframes in Figma",
+  //   "Build interactive prototypes with Auto Layout and component libraries",
+  //   "Develop accessible, responsive interfaces using design systems",
+  //   "Perform usability testing and iterate designs using user feedback",
+  //   "Create professional UX case studies and portfolio presentations"
+  // ],
 
-  prerequisites: [
-    "No prior design experience required",
-    "Basic computer skills",
-    "Laptop recommended"
-  ],
+  // prerequisites: [
+  //   "No prior design experience required",
+  //   "Basic computer skills",
+  //   "Laptop recommended"
+  // ],
 
-  whoIsItFor: [
-    "Creative students",
-    "Aspiring UI/UX designers",
-    "Frontend developers",
-    "Graphic designers transitioning to UX",
-    "Product design beginners"
-  ],
+  // whoIsItFor: [
+  //   "Creative students",
+  //   "Aspiring UI/UX designers",
+  //   "Frontend developers",
+  //   "Graphic designers transitioning to UX",
+  //   "Product design beginners"
+  // ],
 
-  syllabus: [
-    {
-      title: "Module 1: Foundations & Design Thinking",
-      topics: [
-        "UI vs UX",
-        "User Interface Fundamentals",
-        "User Experience Fundamentals",
-        "Design Thinking",
-        "Empathize, Define & Ideate",
-        "Prototype & Test",
-        "Hick's, Fitts's, Jacob's & Miller's Laws",
-        "Accessibility (WCAG)",
-        "Inclusive Design"
-      ]
-    },
-    {
-      title: "Module 2: User Research & Strategy",
-      topics: [
-        "User Interviews",
-        "Surveys",
-        "Contextual Inquiry",
-        "Qualitative & Quantitative Research",
-        "User Personas",
-        "Empathy Maps",
-        "User Journey Maps",
-        "Information Architecture",
-        "Site Maps",
-        "Card Sorting",
-        "User Flows",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      title: "Module 3: Wireframing & Prototyping",
-      topics: [
-        "Low-Fidelity Wireframes",
-        "Paper Sketches",
-        "High-Fidelity Wireframes",
-        "Layout Grids",
-        "Interactive Prototypes",
-        "Clickable Prototypes",
-        "Transition States",
-        "Figma",
-        "Adobe XD",
-        "Component Libraries",
-        "Auto Layout"
-      ]
-    },
-    {
-      title: "Module 4: User Interface Visual Design",
-      topics: [
-        "Color Theory",
-        "Typography",
-        "Iconography",
-        "Visual Hierarchy",
-        "Alignment & Spacing",
-        "Grid Systems",
-        "UI Components",
-        "Design Systems",
-        "Reusable Components",
-        "Design Tokens",
-        "Style Guides",
-        "Responsive Design",
-        "Mobile, Tablet & Desktop UI"
-      ]
-    },
-    {
-      title: "Module 5: Testing, Iteration & Professional Skills",
-      topics: [
-        "Usability Testing",
-        "Moderated & Unmoderated Testing",
-        "User Feedback Collection",
-        "A/B Testing",
-        "Usability Metrics",
-        "Design Iteration",
-        "Developer Handoff",
-        "Design Specifications",
-        "AI-Assisted UI/UX Workflows",
-        "Portfolio Development",
-        "Presentation Skills"
-      ]
-    },
-    {
-      title: "Final Portfolio Project",
-      topics: [
-        "End-to-End UI/UX Project",
-        "User Research",
-        "Competitor Analysis",
-        "Personas & Empathy Maps",
-        "Journey Map & IA",
-        "User Flow",
-        "Wireframes",
-        "High-Fidelity UI",
-        "Interactive Prototype",
-        "Responsive Design",
-        "Design System",
-        "Usability Testing",
-        "Developer Handoff",
-        "Complete UX Case Study",
-        "Portfolio Presentation"
-      ]
-    }
-  ],
+  // syllabus: [
+  //   {
+  //     title: "Module 1: Foundations & Design Thinking",
+  //     topics: [
+  //       "UI vs UX",
+  //       "User Interface Fundamentals",
+  //       "User Experience Fundamentals",
+  //       "Design Thinking",
+  //       "Empathize, Define & Ideate",
+  //       "Prototype & Test",
+  //       "Hick's, Fitts's, Jacob's & Miller's Laws",
+  //       "Accessibility (WCAG)",
+  //       "Inclusive Design"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 2: User Research & Strategy",
+  //     topics: [
+  //       "User Interviews",
+  //       "Surveys",
+  //       "Contextual Inquiry",
+  //       "Qualitative & Quantitative Research",
+  //       "User Personas",
+  //       "Empathy Maps",
+  //       "User Journey Maps",
+  //       "Information Architecture",
+  //       "Site Maps",
+  //       "Card Sorting",
+  //       "User Flows",
+  //       "Competitive Analysis"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 3: Wireframing & Prototyping",
+  //     topics: [
+  //       "Low-Fidelity Wireframes",
+  //       "Paper Sketches",
+  //       "High-Fidelity Wireframes",
+  //       "Layout Grids",
+  //       "Interactive Prototypes",
+  //       "Clickable Prototypes",
+  //       "Transition States",
+  //       "Figma",
+  //       "Adobe XD",
+  //       "Component Libraries",
+  //       "Auto Layout"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 4: User Interface Visual Design",
+  //     topics: [
+  //       "Color Theory",
+  //       "Typography",
+  //       "Iconography",
+  //       "Visual Hierarchy",
+  //       "Alignment & Spacing",
+  //       "Grid Systems",
+  //       "UI Components",
+  //       "Design Systems",
+  //       "Reusable Components",
+  //       "Design Tokens",
+  //       "Style Guides",
+  //       "Responsive Design",
+  //       "Mobile, Tablet & Desktop UI"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 5: Testing, Iteration & Professional Skills",
+  //     topics: [
+  //       "Usability Testing",
+  //       "Moderated & Unmoderated Testing",
+  //       "User Feedback Collection",
+  //       "A/B Testing",
+  //       "Usability Metrics",
+  //       "Design Iteration",
+  //       "Developer Handoff",
+  //       "Design Specifications",
+  //       "AI-Assisted UI/UX Workflows",
+  //       "Portfolio Development",
+  //       "Presentation Skills"
+  //     ]
+  //   },
+  //   {
+  //     title: "Final Portfolio Project",
+  //     topics: [
+  //       "End-to-End UI/UX Project",
+  //       "User Research",
+  //       "Competitor Analysis",
+  //       "Personas & Empathy Maps",
+  //       "Journey Map & IA",
+  //       "User Flow",
+  //       "Wireframes",
+  //       "High-Fidelity UI",
+  //       "Interactive Prototype",
+  //       "Responsive Design",
+  //       "Design System",
+  //       "Usability Testing",
+  //       "Developer Handoff",
+  //       "Complete UX Case Study",
+  //       "Portfolio Presentation"
+  //     ]
+  //   }
+  // ],
 
-  faqs: [
-    {
-      question: "Do I need coding knowledge for UI/UX Design?",
-      answer:
-        "No. This course focuses on design thinking, user experience, visual design, and prototyping without requiring programming."
-    },
-    {
-      question: "Which design tools will I learn?",
-      answer:
-        "You'll primarily use Figma and Adobe XD for wireframing, prototyping, component libraries, and responsive interface design."
-    },
-    {
-      question: "Will I build a professional portfolio?",
-      answer:
-        "Yes. You'll complete multiple UX case studies and an end-to-end portfolio project suitable for job applications."
-    },
-    {
-      question: "Does the course include usability testing?",
-      answer:
-        "Absolutely. You'll conduct usability testing, analyze feedback, iterate designs, and prepare developer handoff documentation."
-    }
-  ],
+  // faqs: [
+  //   {
+  //     question: "Do I need coding knowledge for UI/UX Design?",
+  //     answer:
+  //       "No. This course focuses on design thinking, user experience, visual design, and prototyping without requiring programming."
+  //   },
+  //   {
+  //     question: "Which design tools will I learn?",
+  //     answer:
+  //       "You'll primarily use Figma and Adobe XD for wireframing, prototyping, component libraries, and responsive interface design."
+  //   },
+  //   {
+  //     question: "Will I build a professional portfolio?",
+  //     answer:
+  //       "Yes. You'll complete multiple UX case studies and an end-to-end portfolio project suitable for job applications."
+  //   },
+  //   {
+  //     question: "Does the course include usability testing?",
+  //     answer:
+  //       "Absolutely. You'll conduct usability testing, analyze feedback, iterate designs, and prepare developer handoff documentation."
+  //   }
+  // ],
 
-  featured: true,
-  color: "from-violet-600 to-purple-500",
-  icon: "PenTool"
-  },
+  // featured: true,
+  // color: "from-violet-600 to-purple-500",
+  // icon: "PenTool"
+  // },
   {
   id: "14",
   slug: "python-developer",
@@ -2830,223 +2830,223 @@ export const courses: Course[] = [
   color: "from-indigo-600 to-blue-500",
   icon: "Code2"
   },
-  {
-  id: "15",
-  slug: "qa-automation-engineer",
-  name: "Master Certificate in QA Automation Engineer",
+  // {
+  // id: "15",
+  // slug: "qa-automation-engineer",
+  // name: "Master Certificate in QA Automation Engineer",
 
-  shortDescription:
-    "Master Manual Testing, Selenium, Playwright, API Testing, Appium, CI/CD, and AI-powered QA automation.",
+  // shortDescription:
+  //   "Master Manual Testing, Selenium, Playwright, API Testing, Appium, CI/CD, and AI-powered QA automation.",
 
-  fullDescription:
-    "An industry-focused master certification that prepares you for Software Testing and QA Automation careers. Learn manual testing, SQL, Java/Python for automation, Selenium, Playwright, REST API testing, Appium, Jenkins, Docker, and build enterprise-grade automation frameworks with AI-assisted testing techniques.",
+  // fullDescription:
+  //   "An industry-focused master certification that prepares you for Software Testing and QA Automation careers. Learn manual testing, SQL, Java/Python for automation, Selenium, Playwright, REST API testing, Appium, Jenkins, Docker, and build enterprise-grade automation frameworks with AI-assisted testing techniques.",
 
-  category: "productivity",
-  level: "advanced",
-  duration: "4 Months",
-  durationWeeks: 16,
-  hours: "160 Hours",
+  // category: "productivity",
+  // level: "advanced",
+  // duration: "4 Months",
+  // durationWeeks: 16,
+  // hours: "160 Hours",
 
-  mode: "Online / Offline",
+  // mode: "Online / Offline",
 
-  batchOptions: [
-    "Weekday Batch",
-    "Weekend Batch",
-    "Corporate Fast Track"
-  ],
+  // batchOptions: [
+  //   "Weekday Batch",
+  //   "Weekend Batch",
+  //   "Corporate Fast Track"
+  // ],
 
-  technologies: [
-    "Selenium",
-    "Playwright",
-    "Java",
-    "Python",
-    "SQL",
-    "Postman",
-    "REST Assured",
-    "Appium",
-    "Jenkins",
-    "Docker",
-    "Git & GitHub",
-    "JIRA"
-  ],
+  // technologies: [
+  //   "Selenium",
+  //   "Playwright",
+  //   "Java",
+  //   "Python",
+  //   "SQL",
+  //   "Postman",
+  //   "REST Assured",
+  //   "Appium",
+  //   "Jenkins",
+  //   "Docker",
+  //   "Git & GitHub",
+  //   "JIRA"
+  // ],
 
-  projects: [
-    "Enterprise QA Automation Framework",
-    "E-Commerce Web Automation",
-    "REST API Automation Suite",
-    "Mobile App Automation with Appium",
-    "CI/CD Test Pipeline Project"
-  ],
+  // projects: [
+  //   "Enterprise QA Automation Framework",
+  //   "E-Commerce Web Automation",
+  //   "REST API Automation Suite",
+  //   "Mobile App Automation with Appium",
+  //   "CI/CD Test Pipeline Project"
+  // ],
 
-  careerPaths: [
-    "QA Automation Engineer",
-    "Software Test Engineer",
-    "SDET (Software Development Engineer in Test)",
-    "API Test Automation Engineer",
-    "Mobile Test Automation Engineer"
-  ],
+  // careerPaths: [
+  //   "QA Automation Engineer",
+  //   "Software Test Engineer",
+  //   "SDET (Software Development Engineer in Test)",
+  //   "API Test Automation Engineer",
+  //   "Mobile Test Automation Engineer"
+  // ],
 
-  learningOutcomes: [
-    "Understand SDLC, STLC, and professional QA processes",
-    "Design effective test cases and manage defects using JIRA",
-    "Write automation scripts with Selenium and Playwright",
-    "Build scalable Page Object Model and data-driven frameworks",
-    "Perform API testing using Postman and REST Assured",
-    "Automate Android and iOS testing with Appium",
-    "Integrate automated testing into Jenkins CI/CD pipelines",
-    "Execute containerized test suites using Docker",
-    "Apply AI-assisted techniques for test generation and maintenance"
-  ],
+  // learningOutcomes: [
+  //   "Understand SDLC, STLC, and professional QA processes",
+  //   "Design effective test cases and manage defects using JIRA",
+  //   "Write automation scripts with Selenium and Playwright",
+  //   "Build scalable Page Object Model and data-driven frameworks",
+  //   "Perform API testing using Postman and REST Assured",
+  //   "Automate Android and iOS testing with Appium",
+  //   "Integrate automated testing into Jenkins CI/CD pipelines",
+  //   "Execute containerized test suites using Docker",
+  //   "Apply AI-assisted techniques for test generation and maintenance"
+  // ],
 
-  prerequisites: [
-    "Basic computer knowledge",
-    "No prior testing experience required",
-    "Laptop recommended for development"
-  ],
+  // prerequisites: [
+  //   "Basic computer knowledge",
+  //   "No prior testing experience required",
+  //   "Laptop recommended for development"
+  // ],
 
-  whoIsItFor: [
-    "Engineering students",
-    "Fresh graduates",
-    "Manual testers transitioning to automation",
-    "Software professionals",
-    "Aspiring QA engineers"
-  ],
+  // whoIsItFor: [
+  //   "Engineering students",
+  //   "Fresh graduates",
+  //   "Manual testers transitioning to automation",
+  //   "Software professionals",
+  //   "Aspiring QA engineers"
+  // ],
 
-  syllabus: [
-    {
-      title: "Module 1: Manual Testing & QA Foundations",
-      topics: [
-        "SDLC & STLC",
-        "Testing Fundamentals",
-        "Test Levels & Test Types",
-        "Test Planning",
-        "Test Scenarios & Test Cases",
-        "Functional, Regression, Smoke & Sanity Testing",
-        "Defect Life Cycle",
-        "Bug Reporting",
-        "JIRA Defect Tracking"
-      ]
-    },
-    {
-      title: "Module 2: Programming & Database Fundamentals",
-      topics: [
-        "Programming Basics",
-        "Variables & Data Types",
-        "Operators & Loops",
-        "Functions",
-        "Object-Oriented Programming",
-        "Java / Python / JavaScript for Testing",
-        "SQL Fundamentals",
-        "CRUD Operations",
-        "Joins & Aggregations",
-        "Database Validation"
-      ]
-    },
-    {
-      title: "Module 3: Web Automation & Test Frameworks",
-      topics: [
-        "Selenium WebDriver",
-        "Playwright",
-        "Browser Configuration",
-        "XPath & CSS Selectors",
-        "Web Element Interaction",
-        "Waits, Alerts & Frames",
-        "Windows & Tabs",
-        "TestNG, JUnit & Pytest",
-        "Assertions",
-        "Page Object Model",
-        "Data-Driven & Hybrid Frameworks"
-      ]
-    },
-    {
-      title: "Module 4: API & Mobile Testing",
-      topics: [
-        "REST API Fundamentals",
-        "HTTP Methods (GET, POST, PUT, DELETE)",
-        "Status Codes & Headers",
-        "JSON Validation",
-        "Postman",
-        "REST Assured",
-        "Authentication Testing",
-        "Appium",
-        "Device & Emulator Configuration",
-        "Mobile Automation"
-      ]
-    },
-    {
-      title: "Module 5: CI/CD, Version Control & DevOps Testing",
-      topics: [
-        "Git & GitHub",
-        "Branching & Merging",
-        "Maven",
-        "Jenkins",
-        "Continuous Integration",
-        "Continuous Testing",
-        "Automated Pipelines",
-        "Test Reports",
-        "Docker",
-        "Containerized Test Execution"
-      ]
-    },
-    {
-      title: "Module 6: Advanced Automation & AI-Assisted Testing",
-      topics: [
-        "Parallel Test Execution",
-        "Cross-Browser Testing",
-        "Framework Optimization",
-        "Advanced Reporting",
-        "Test Data Management",
-        "AI Test Case Generation",
-        "AI Test Script Creation",
-        "Self-Healing Testing",
-        "Intelligent Defect Analysis"
-      ]
-    },
-    {
-      title: "Final Enterprise Automation Project",
-      topics: [
-        "End-to-End QA Framework",
-        "Manual Test Planning",
-        "Selenium/Playwright Automation",
-        "Page Object Model",
-        "REST Assured API Testing",
-        "Database Validation",
-        "GitHub Integration",
-        "Jenkins CI/CD Pipeline",
-        "Docker Execution",
-        "AI-Assisted Testing",
-        "Final Demonstration"
-      ]
-    }
-  ],
+  // syllabus: [
+  //   {
+  //     title: "Module 1: Manual Testing & QA Foundations",
+  //     topics: [
+  //       "SDLC & STLC",
+  //       "Testing Fundamentals",
+  //       "Test Levels & Test Types",
+  //       "Test Planning",
+  //       "Test Scenarios & Test Cases",
+  //       "Functional, Regression, Smoke & Sanity Testing",
+  //       "Defect Life Cycle",
+  //       "Bug Reporting",
+  //       "JIRA Defect Tracking"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 2: Programming & Database Fundamentals",
+  //     topics: [
+  //       "Programming Basics",
+  //       "Variables & Data Types",
+  //       "Operators & Loops",
+  //       "Functions",
+  //       "Object-Oriented Programming",
+  //       "Java / Python / JavaScript for Testing",
+  //       "SQL Fundamentals",
+  //       "CRUD Operations",
+  //       "Joins & Aggregations",
+  //       "Database Validation"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 3: Web Automation & Test Frameworks",
+  //     topics: [
+  //       "Selenium WebDriver",
+  //       "Playwright",
+  //       "Browser Configuration",
+  //       "XPath & CSS Selectors",
+  //       "Web Element Interaction",
+  //       "Waits, Alerts & Frames",
+  //       "Windows & Tabs",
+  //       "TestNG, JUnit & Pytest",
+  //       "Assertions",
+  //       "Page Object Model",
+  //       "Data-Driven & Hybrid Frameworks"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 4: API & Mobile Testing",
+  //     topics: [
+  //       "REST API Fundamentals",
+  //       "HTTP Methods (GET, POST, PUT, DELETE)",
+  //       "Status Codes & Headers",
+  //       "JSON Validation",
+  //       "Postman",
+  //       "REST Assured",
+  //       "Authentication Testing",
+  //       "Appium",
+  //       "Device & Emulator Configuration",
+  //       "Mobile Automation"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 5: CI/CD, Version Control & DevOps Testing",
+  //     topics: [
+  //       "Git & GitHub",
+  //       "Branching & Merging",
+  //       "Maven",
+  //       "Jenkins",
+  //       "Continuous Integration",
+  //       "Continuous Testing",
+  //       "Automated Pipelines",
+  //       "Test Reports",
+  //       "Docker",
+  //       "Containerized Test Execution"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 6: Advanced Automation & AI-Assisted Testing",
+  //     topics: [
+  //       "Parallel Test Execution",
+  //       "Cross-Browser Testing",
+  //       "Framework Optimization",
+  //       "Advanced Reporting",
+  //       "Test Data Management",
+  //       "AI Test Case Generation",
+  //       "AI Test Script Creation",
+  //       "Self-Healing Testing",
+  //       "Intelligent Defect Analysis"
+  //     ]
+  //   },
+  //   {
+  //     title: "Final Enterprise Automation Project",
+  //     topics: [
+  //       "End-to-End QA Framework",
+  //       "Manual Test Planning",
+  //       "Selenium/Playwright Automation",
+  //       "Page Object Model",
+  //       "REST Assured API Testing",
+  //       "Database Validation",
+  //       "GitHub Integration",
+  //       "Jenkins CI/CD Pipeline",
+  //       "Docker Execution",
+  //       "AI-Assisted Testing",
+  //       "Final Demonstration"
+  //     ]
+  //   }
+  // ],
 
-  faqs: [
-    {
-      question: "Do I need programming knowledge before joining?",
-      answer:
-        "No. The course teaches Java/Python programming fundamentals required for automation testing."
-    },
-    {
-      question: "Will I learn both Selenium and Playwright?",
-      answer:
-        "Yes. You'll build automation frameworks using both Selenium WebDriver and Microsoft Playwright."
-    },
-    {
-      question: "Does the course include API and mobile testing?",
-      answer:
-        "Absolutely. You'll learn Postman, REST Assured, and Appium for complete QA automation."
-    },
-    {
-      question: "Will I work on an enterprise automation project?",
-      answer:
-        "Yes. The capstone includes web, API, database, CI/CD, Docker, and AI-assisted testing in a real-world framework."
-    }
-  ],
+  // faqs: [
+  //   {
+  //     question: "Do I need programming knowledge before joining?",
+  //     answer:
+  //       "No. The course teaches Java/Python programming fundamentals required for automation testing."
+  //   },
+  //   {
+  //     question: "Will I learn both Selenium and Playwright?",
+  //     answer:
+  //       "Yes. You'll build automation frameworks using both Selenium WebDriver and Microsoft Playwright."
+  //   },
+  //   {
+  //     question: "Does the course include API and mobile testing?",
+  //     answer:
+  //       "Absolutely. You'll learn Postman, REST Assured, and Appium for complete QA automation."
+  //   },
+  //   {
+  //     question: "Will I work on an enterprise automation project?",
+  //     answer:
+  //       "Yes. The capstone includes web, API, database, CI/CD, Docker, and AI-assisted testing in a real-world framework."
+  //   }
+  // ],
 
-  featured: true,
-  color: "from-emerald-600 to-cyan-600",
-  icon: "Bug"
-  },
+  // featured: true,
+  // color: "from-emerald-600 to-cyan-600",
+  // icon: "Bug"
+  // },
   {
   id: "16",
   slug: "data-analytics-professional",
@@ -3264,253 +3264,253 @@ export const courses: Course[] = [
   color: "from-indigo-700 to-sky-500",
   icon: "BarChart3"
   },
-  {
-  id: "17",
-  slug: "flutter-mobile-application-developer",
-  name: "Master Certificate in Flutter Mobile Application Developer",
+  // {
+  // id: "17",
+  // slug: "flutter-mobile-application-developer",
+  // name: "Master Certificate in Flutter Mobile Application Developer",
 
-  shortDescription:
-    "Build cross-platform Android & iOS apps using Flutter, Dart, Firebase, REST APIs, state management, and AI integration.",
+  // shortDescription:
+  //   "Build cross-platform Android & iOS apps using Flutter, Dart, Firebase, REST APIs, state management, and AI integration.",
 
-  fullDescription:
-    "A comprehensive master-level Flutter development program designed to create production-ready mobile applications. Learn Dart programming, Flutter widgets, responsive UI, Provider, Riverpod, BLoC, REST APIs, Firebase, local databases, AI integration, testing, performance optimization, and deploy apps to Google Play Store and the Apple App Store.",
+  // fullDescription:
+  //   "A comprehensive master-level Flutter development program designed to create production-ready mobile applications. Learn Dart programming, Flutter widgets, responsive UI, Provider, Riverpod, BLoC, REST APIs, Firebase, local databases, AI integration, testing, performance optimization, and deploy apps to Google Play Store and the Apple App Store.",
 
-  category: "programming",
-  level: "advanced",
-  duration: "4 Months",
-  durationWeeks: 16,
-  hours: "160 Hours",
+  // category: "programming",
+  // level: "advanced",
+  // duration: "4 Months",
+  // durationWeeks: 16,
+  // hours: "160 Hours",
 
-  mode: "Online / Offline",
+  // mode: "Online / Offline",
 
-  batchOptions: [
-    "Weekday Batch",
-    "Weekend Batch",
-    "Corporate Fast Track"
-  ],
+  // batchOptions: [
+  //   "Weekday Batch",
+  //   "Weekend Batch",
+  //   "Corporate Fast Track"
+  // ],
 
-  technologies: [
-    "Flutter",
-    "Dart",
-    "Firebase",
-    "Firestore",
-    "Provider",
-    "Riverpod",
-    "BLoC",
-    "SQLite",
-    "Dio",
-    "Git & GitHub"
-  ],
+  // technologies: [
+  //   "Flutter",
+  //   "Dart",
+  //   "Firebase",
+  //   "Firestore",
+  //   "Provider",
+  //   "Riverpod",
+  //   "BLoC",
+  //   "SQLite",
+  //   "Dio",
+  //   "Git & GitHub"
+  // ],
 
-  projects: [
-    "E-Commerce Mobile App",
-    "Food Delivery Application",
-    "Expense Tracker",
-    "AI Chat Mobile App",
-    "Production-Ready Flutter Capstone"
-  ],
+  // projects: [
+  //   "E-Commerce Mobile App",
+  //   "Food Delivery Application",
+  //   "Expense Tracker",
+  //   "AI Chat Mobile App",
+  //   "Production-Ready Flutter Capstone"
+  // ],
 
-  careerPaths: [
-    "Flutter Developer",
-    "Mobile Application Developer",
-    "Cross-Platform App Developer",
-    "Firebase Developer",
-    "Full Stack Mobile Engineer"
-  ],
+  // careerPaths: [
+  //   "Flutter Developer",
+  //   "Mobile Application Developer",
+  //   "Cross-Platform App Developer",
+  //   "Firebase Developer",
+  //   "Full Stack Mobile Engineer"
+  // ],
 
-  learningOutcomes: [
-    "Master Dart programming and object-oriented application development",
-    "Design responsive Android and iOS interfaces using Flutter widgets",
-    "Build scalable applications with Provider, Riverpod, and BLoC",
-    "Integrate REST APIs and handle asynchronous networking",
-    "Implement Firebase Authentication, Firestore, and Cloud Storage",
-    "Store offline data using SQLite, Isar, and Shared Preferences",
-    "Optimize mobile apps using Flutter DevTools and performance profiling",
-    "Deploy production-ready apps to Google Play Store and App Store"
-  ],
+  // learningOutcomes: [
+  //   "Master Dart programming and object-oriented application development",
+  //   "Design responsive Android and iOS interfaces using Flutter widgets",
+  //   "Build scalable applications with Provider, Riverpod, and BLoC",
+  //   "Integrate REST APIs and handle asynchronous networking",
+  //   "Implement Firebase Authentication, Firestore, and Cloud Storage",
+  //   "Store offline data using SQLite, Isar, and Shared Preferences",
+  //   "Optimize mobile apps using Flutter DevTools and performance profiling",
+  //   "Deploy production-ready apps to Google Play Store and App Store"
+  // ],
 
-  prerequisites: [
-    "Basic programming knowledge is helpful",
-    "Laptop with Windows, macOS, or Linux",
-    "No prior Flutter experience required"
-  ],
+  // prerequisites: [
+  //   "Basic programming knowledge is helpful",
+  //   "Laptop with Windows, macOS, or Linux",
+  //   "No prior Flutter experience required"
+  // ],
 
-  whoIsItFor: [
-    "Engineering students",
-    "Aspiring mobile app developers",
-    "Frontend developers moving to mobile",
-    "Entrepreneurs building apps",
-    "Software professionals"
-  ],
+  // whoIsItFor: [
+  //   "Engineering students",
+  //   "Aspiring mobile app developers",
+  //   "Frontend developers moving to mobile",
+  //   "Entrepreneurs building apps",
+  //   "Software professionals"
+  // ],
 
-  syllabus: [
-    {
-      title: "Module 1: Introduction to Dart Programming",
-      topics: [
-        "Dart Syntax",
-        "Variables & Data Types",
-        "final & const",
-        "Operators & Loops",
-        "Functions & Lexical Scope",
-        "Arrow Functions",
-        "Lists, Maps & Sets",
-        "Classes & OOP",
-        "Inheritance & Mixins",
-        "Interfaces & Polymorphism",
-        "Futures, Streams & async/await"
-      ]
-    },
-    {
-      title: "Module 2: Flutter Setup & Architecture",
-      topics: [
-        "Flutter SDK Installation",
-        "Android Studio & VS Code",
-        "Emulators & Simulators",
-        "Flutter CLI",
-        "Project Structure",
-        "Widget Tree",
-        "Rendering Pipeline",
-        "Application Architecture"
-      ]
-    },
-    {
-      title: "Module 3: Core UI Design – Widgets & Layouts",
-      topics: [
-        "Text & Container",
-        "Row, Column & Stack",
-        "Image Assets",
-        "Stateless & Stateful Widgets",
-        "Widget Lifecycle",
-        "ListView & GridView",
-        "Padding & Alignment",
-        "Responsive Layouts",
-        "Material & Cupertino Design"
-      ]
-    },
-    {
-      title: "Module 4: User Interaction, Forms & Navigation",
-      topics: [
-        "GestureDetector & InkWell",
-        "Tap, Swipe & Drag",
-        "TextFields",
-        "Form Controls",
-        "Validation",
-        "Controllers",
-        "Multi-Screen Navigation",
-        "Named Routes",
-        "Navigator",
-        "Modern Routing"
-      ]
-    },
-    {
-      title: "Module 5: State Management & Architecture",
-      topics: [
-        "setState()",
-        "Provider",
-        "Riverpod",
-        "BLoC Pattern",
-        "Reactive State",
-        "Business Logic Separation",
-        "Dependency Injection",
-        "Service Locator",
-        "get_it",
-        "Scalable Architecture"
-      ]
-    },
-    {
-      title: "Module 6: Networking, APIs & Local Storage",
-      topics: [
-        "REST API Fundamentals",
-        "GET, POST, PUT & DELETE",
-        "http & Dio",
-        "JSON Parsing",
-        "Model Classes",
-        "Error Handling",
-        "SQLite",
-        "sqflite",
-        "Isar",
-        "Shared Preferences",
-        "Offline Caching"
-      ]
-    },
-    {
-      title: "Module 7: Firebase Backend Integration",
-      topics: [
-        "Firebase Setup",
-        "Authentication",
-        "Email & Google Login",
-        "Cloud Firestore",
-        "Real-Time Data",
-        "CRUD Operations",
-        "Cloud Storage",
-        "Media Uploads",
-        "Firebase Cloud Messaging",
-        "Push Notifications"
-      ]
-    },
-    {
-      title: "Module 8: AI Integration, Testing & Deployment",
-      topics: [
-        "AI APIs & Services",
-        "AI Mobile Features",
-        "Unit & Widget Testing",
-        "Integration Testing",
-        "Flutter DevTools",
-        "Performance Profiling",
-        "CPU & Memory Monitoring",
-        "App Optimization",
-        "App Icons & Splash Screen",
-        "Android AAB Build",
-        "Play Store & App Store Deployment"
-      ]
-    },
-    {
-      title: "Final Capstone Project",
-      topics: [
-        "Production Flutter Application",
-        "Responsive UI",
-        "State Management",
-        "REST API Integration",
-        "Firebase Authentication",
-        "Firestore Database",
-        "Local Storage",
-        "Push Notifications",
-        "AI Feature Integration",
-        "Performance Optimization",
-        "GitHub Version Control",
-        "Android & iOS Release",
-        "Final Presentation"
-      ]
-    }
-  ],
+  // syllabus: [
+  //   {
+  //     title: "Module 1: Introduction to Dart Programming",
+  //     topics: [
+  //       "Dart Syntax",
+  //       "Variables & Data Types",
+  //       "final & const",
+  //       "Operators & Loops",
+  //       "Functions & Lexical Scope",
+  //       "Arrow Functions",
+  //       "Lists, Maps & Sets",
+  //       "Classes & OOP",
+  //       "Inheritance & Mixins",
+  //       "Interfaces & Polymorphism",
+  //       "Futures, Streams & async/await"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 2: Flutter Setup & Architecture",
+  //     topics: [
+  //       "Flutter SDK Installation",
+  //       "Android Studio & VS Code",
+  //       "Emulators & Simulators",
+  //       "Flutter CLI",
+  //       "Project Structure",
+  //       "Widget Tree",
+  //       "Rendering Pipeline",
+  //       "Application Architecture"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 3: Core UI Design – Widgets & Layouts",
+  //     topics: [
+  //       "Text & Container",
+  //       "Row, Column & Stack",
+  //       "Image Assets",
+  //       "Stateless & Stateful Widgets",
+  //       "Widget Lifecycle",
+  //       "ListView & GridView",
+  //       "Padding & Alignment",
+  //       "Responsive Layouts",
+  //       "Material & Cupertino Design"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 4: User Interaction, Forms & Navigation",
+  //     topics: [
+  //       "GestureDetector & InkWell",
+  //       "Tap, Swipe & Drag",
+  //       "TextFields",
+  //       "Form Controls",
+  //       "Validation",
+  //       "Controllers",
+  //       "Multi-Screen Navigation",
+  //       "Named Routes",
+  //       "Navigator",
+  //       "Modern Routing"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 5: State Management & Architecture",
+  //     topics: [
+  //       "setState()",
+  //       "Provider",
+  //       "Riverpod",
+  //       "BLoC Pattern",
+  //       "Reactive State",
+  //       "Business Logic Separation",
+  //       "Dependency Injection",
+  //       "Service Locator",
+  //       "get_it",
+  //       "Scalable Architecture"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 6: Networking, APIs & Local Storage",
+  //     topics: [
+  //       "REST API Fundamentals",
+  //       "GET, POST, PUT & DELETE",
+  //       "http & Dio",
+  //       "JSON Parsing",
+  //       "Model Classes",
+  //       "Error Handling",
+  //       "SQLite",
+  //       "sqflite",
+  //       "Isar",
+  //       "Shared Preferences",
+  //       "Offline Caching"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 7: Firebase Backend Integration",
+  //     topics: [
+  //       "Firebase Setup",
+  //       "Authentication",
+  //       "Email & Google Login",
+  //       "Cloud Firestore",
+  //       "Real-Time Data",
+  //       "CRUD Operations",
+  //       "Cloud Storage",
+  //       "Media Uploads",
+  //       "Firebase Cloud Messaging",
+  //       "Push Notifications"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 8: AI Integration, Testing & Deployment",
+  //     topics: [
+  //       "AI APIs & Services",
+  //       "AI Mobile Features",
+  //       "Unit & Widget Testing",
+  //       "Integration Testing",
+  //       "Flutter DevTools",
+  //       "Performance Profiling",
+  //       "CPU & Memory Monitoring",
+  //       "App Optimization",
+  //       "App Icons & Splash Screen",
+  //       "Android AAB Build",
+  //       "Play Store & App Store Deployment"
+  //     ]
+  //   },
+  //   {
+  //     title: "Final Capstone Project",
+  //     topics: [
+  //       "Production Flutter Application",
+  //       "Responsive UI",
+  //       "State Management",
+  //       "REST API Integration",
+  //       "Firebase Authentication",
+  //       "Firestore Database",
+  //       "Local Storage",
+  //       "Push Notifications",
+  //       "AI Feature Integration",
+  //       "Performance Optimization",
+  //       "GitHub Version Control",
+  //       "Android & iOS Release",
+  //       "Final Presentation"
+  //     ]
+  //   }
+  // ],
 
-  faqs: [
-    {
-      question: "Do I need prior Flutter knowledge?",
-      answer:
-        "No. The course begins with Dart programming and gradually progresses to advanced Flutter application development."
-    },
-    {
-      question: "Will I build apps for both Android and iOS?",
-      answer:
-        "Yes. Flutter allows you to develop a single codebase that runs on both Android and iOS platforms."
-    },
-    {
-      question: "Does this course include Firebase?",
-      answer:
-        "Absolutely. You'll implement authentication, Firestore, cloud storage, and push notifications using Firebase."
-    },
-    {
-      question: "Will I publish my mobile app?",
-      answer:
-        "Yes. The capstone includes generating Android App Bundles (.aab) and deploying applications to the Google Play Store, with iOS deployment guidance included."
-    }
-  ],
+  // faqs: [
+  //   {
+  //     question: "Do I need prior Flutter knowledge?",
+  //     answer:
+  //       "No. The course begins with Dart programming and gradually progresses to advanced Flutter application development."
+  //   },
+  //   {
+  //     question: "Will I build apps for both Android and iOS?",
+  //     answer:
+  //       "Yes. Flutter allows you to develop a single codebase that runs on both Android and iOS platforms."
+  //   },
+  //   {
+  //     question: "Does this course include Firebase?",
+  //     answer:
+  //       "Absolutely. You'll implement authentication, Firestore, cloud storage, and push notifications using Firebase."
+  //   },
+  //   {
+  //     question: "Will I publish my mobile app?",
+  //     answer:
+  //       "Yes. The capstone includes generating Android App Bundles (.aab) and deploying applications to the Google Play Store, with iOS deployment guidance included."
+  //   }
+  // ],
 
-  featured: true,
-  color: "from-sky-500 to-blue-700",
-  icon: "Smartphone"
-  },
+  // featured: true,
+  // color: "from-sky-500 to-blue-700",
+  // icon: "Smartphone"
+  // },
   {
   id: "18",
   slug: "machine-learning-professional",
@@ -4369,188 +4369,188 @@ export const courses: Course[] = [
   color: "from-blue-700 to-purple-600",
   icon: "Brain"
   },
-  {
-  id: "22",
-  slug: "ai-digital-marketing-specialist",
-  name: "Master Certificate in AI Digital Marketing Specialist",
+  // {
+  // id: "22",
+  // slug: "ai-digital-marketing-specialist",
+  // name: "Master Certificate in AI Digital Marketing Specialist",
 
-  shortDescription:
-    "Master AI-powered SEO, content marketing, paid ads, social media automation, GA4, and performance marketing.",
+  // shortDescription:
+  //   "Master AI-powered SEO, content marketing, paid ads, social media automation, GA4, and performance marketing.",
 
-  fullDescription:
-    "A comprehensive master-level digital marketing program that combines modern AI tools with professional marketing strategies. Learn SEO, AEO, GEO, AI content creation, PPC advertising, social media automation, Google Analytics 4, conversion optimization, and build real-world marketing campaigns with industry-ready portfolios.",
+  // fullDescription:
+  //   "A comprehensive master-level digital marketing program that combines modern AI tools with professional marketing strategies. Learn SEO, AEO, GEO, AI content creation, PPC advertising, social media automation, Google Analytics 4, conversion optimization, and build real-world marketing campaigns with industry-ready portfolios.",
 
-  category: "ai",
-  level: "advanced",
-  duration: "4 Months",
-  durationWeeks: 16,
-  hours: "160 Hours",
+  // category: "ai",
+  // level: "advanced",
+  // duration: "4 Months",
+  // durationWeeks: 16,
+  // hours: "160 Hours",
 
-  mode: "Online / Offline",
+  // mode: "Online / Offline",
 
-  batchOptions: [
-    "Weekday Batch",
-    "Weekend Batch",
-    "Corporate Fast Track"
-  ],
+  // batchOptions: [
+  //   "Weekday Batch",
+  //   "Weekend Batch",
+  //   "Corporate Fast Track"
+  // ],
 
-  technologies: [
-    "ChatGPT",
-    "Claude",
-    "Gemini",
-    "Google Analytics 4",
-    "Looker Studio",
-    "Google Ads",
-    "SurferSEO",
-    "Midjourney"
-  ],
+  // technologies: [
+  //   "ChatGPT",
+  //   "Claude",
+  //   "Gemini",
+  //   "Google Analytics 4",
+  //   "Looker Studio",
+  //   "Google Ads",
+  //   "SurferSEO",
+  //   "Midjourney"
+  // ],
 
-  projects: [
-    "AI SEO Strategy Project",
-    "Performance Marketing Campaign",
-    "Social Media Automation System",
-    "GA4 Analytics Dashboard",
-    "Complete Digital Marketing Capstone"
-  ],
+  // projects: [
+  //   "AI SEO Strategy Project",
+  //   "Performance Marketing Campaign",
+  //   "Social Media Automation System",
+  //   "GA4 Analytics Dashboard",
+  //   "Complete Digital Marketing Capstone"
+  // ],
 
-  careerPaths: [
-    "AI Digital Marketing Specialist",
-    "SEO Specialist",
-    "Performance Marketing Analyst",
-    "Content Marketing Strategist",
-    "Growth Marketing Executive"
-  ],
+  // careerPaths: [
+  //   "AI Digital Marketing Specialist",
+  //   "SEO Specialist",
+  //   "Performance Marketing Analyst",
+  //   "Content Marketing Strategist",
+  //   "Growth Marketing Executive"
+  // ],
 
-  learningOutcomes: [
-    "Leverage Generative AI tools for modern marketing workflows",
-    "Create SEO-optimized content using AI and keyword research",
-    "Run AI-powered Google Ads and Performance Max campaigns",
-    "Automate social media publishing and audience engagement",
-    "Analyze campaign performance using GA4 and Looker Studio",
-    "Improve conversions through CRO and A/B testing",
-    "Develop AI-assisted marketing strategies for businesses",
-    "Build a professional digital marketing portfolio with live campaigns"
-  ],
+  // learningOutcomes: [
+  //   "Leverage Generative AI tools for modern marketing workflows",
+  //   "Create SEO-optimized content using AI and keyword research",
+  //   "Run AI-powered Google Ads and Performance Max campaigns",
+  //   "Automate social media publishing and audience engagement",
+  //   "Analyze campaign performance using GA4 and Looker Studio",
+  //   "Improve conversions through CRO and A/B testing",
+  //   "Develop AI-assisted marketing strategies for businesses",
+  //   "Build a professional digital marketing portfolio with live campaigns"
+  // ],
 
-  prerequisites: [
-    "No prior marketing experience required",
-    "Basic computer and internet skills",
-    "Suitable for students, entrepreneurs, and professionals"
-  ],
+  // prerequisites: [
+  //   "No prior marketing experience required",
+  //   "Basic computer and internet skills",
+  //   "Suitable for students, entrepreneurs, and professionals"
+  // ],
 
-  whoIsItFor: [
-    "Marketing students",
-    "Business owners",
-    "Content creators",
-    "Freelancers",
-    "Aspiring digital marketing professionals"
-  ],
+  // whoIsItFor: [
+  //   "Marketing students",
+  //   "Business owners",
+  //   "Content creators",
+  //   "Freelancers",
+  //   "Aspiring digital marketing professionals"
+  // ],
 
-  syllabus: [
-    {
-      title: "Module 1: Foundations & AI Core",
-      topics: [
-        "AI & Machine Learning in Marketing",
-        "AI Marketing Applications",
-        "Prompt Engineering",
-        "AI Marketing Strategy",
-        "Consumer Behavior",
-        "Data Privacy & GDPR",
-        "Generative AI Ecosystem",
-        "ChatGPT, Claude & Gemini"
-      ]
-    },
-    {
-      title: "Module 2: AI in Content & SEO",
-      topics: [
-        "AI Keyword Research",
-        "Topic Clustering",
-        "AI Content Generation",
-        "Content Scaling",
-        "Jasper & Copy.ai",
-        "Technical SEO",
-        "On-Page SEO",
-        "SEO Optimization",
-        "SurferSEO",
-        "AEO & GEO",
-        "AI Content Strategy"
-      ]
-    },
-    {
-      title: "Module 3: Paid Ads & Social Media Automation",
-      topics: [
-        "Google Performance Max",
-        "Smart Bidding",
-        "PPC Campaigns",
-        "Social Media Marketing",
-        "Scheduling Automation",
-        "Social Listening",
-        "Sentiment Analysis",
-        "AI Audience Targeting",
-        "Visual Asset Creation",
-        "Midjourney",
-        "AI Chatbots",
-        "Marketing Automation"
-      ]
-    },
-    {
-      title: "Module 4: Analytics, Testing & Capstone",
-      topics: [
-        "Google Analytics 4",
-        "Marketing Data Analysis",
-        "Looker Studio",
-        "Campaign Tracking",
-        "Conversion Rate Optimization",
-        "Automated A/B Testing",
-        "Performance Measurement",
-        "Campaign Optimization",
-        "Portfolio Development",
-        "Final Marketing Campaign"
-      ]
-    },
-    {
-      title: "Final Capstone Project",
-      topics: [
-        "End-to-End Marketing Strategy",
-        "SEO & Content Plan",
-        "AI Campaign Creation",
-        "Google Ads Optimization",
-        "Social Media Automation",
-        "GA4 Analytics Dashboard",
-        "Conversion Optimization",
-        "Performance Reporting",
-        "Portfolio Presentation"
-      ]
-    }
-  ],
+  // syllabus: [
+  //   {
+  //     title: "Module 1: Foundations & AI Core",
+  //     topics: [
+  //       "AI & Machine Learning in Marketing",
+  //       "AI Marketing Applications",
+  //       "Prompt Engineering",
+  //       "AI Marketing Strategy",
+  //       "Consumer Behavior",
+  //       "Data Privacy & GDPR",
+  //       "Generative AI Ecosystem",
+  //       "ChatGPT, Claude & Gemini"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 2: AI in Content & SEO",
+  //     topics: [
+  //       "AI Keyword Research",
+  //       "Topic Clustering",
+  //       "AI Content Generation",
+  //       "Content Scaling",
+  //       "Jasper & Copy.ai",
+  //       "Technical SEO",
+  //       "On-Page SEO",
+  //       "SEO Optimization",
+  //       "SurferSEO",
+  //       "AEO & GEO",
+  //       "AI Content Strategy"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 3: Paid Ads & Social Media Automation",
+  //     topics: [
+  //       "Google Performance Max",
+  //       "Smart Bidding",
+  //       "PPC Campaigns",
+  //       "Social Media Marketing",
+  //       "Scheduling Automation",
+  //       "Social Listening",
+  //       "Sentiment Analysis",
+  //       "AI Audience Targeting",
+  //       "Visual Asset Creation",
+  //       "Midjourney",
+  //       "AI Chatbots",
+  //       "Marketing Automation"
+  //     ]
+  //   },
+  //   {
+  //     title: "Module 4: Analytics, Testing & Capstone",
+  //     topics: [
+  //       "Google Analytics 4",
+  //       "Marketing Data Analysis",
+  //       "Looker Studio",
+  //       "Campaign Tracking",
+  //       "Conversion Rate Optimization",
+  //       "Automated A/B Testing",
+  //       "Performance Measurement",
+  //       "Campaign Optimization",
+  //       "Portfolio Development",
+  //       "Final Marketing Campaign"
+  //     ]
+  //   },
+  //   {
+  //     title: "Final Capstone Project",
+  //     topics: [
+  //       "End-to-End Marketing Strategy",
+  //       "SEO & Content Plan",
+  //       "AI Campaign Creation",
+  //       "Google Ads Optimization",
+  //       "Social Media Automation",
+  //       "GA4 Analytics Dashboard",
+  //       "Conversion Optimization",
+  //       "Performance Reporting",
+  //       "Portfolio Presentation"
+  //     ]
+  //   }
+  // ],
 
-  faqs: [
-    {
-      question: "Do I need prior marketing experience?",
-      answer:
-        "No. The course starts from digital marketing fundamentals and gradually introduces AI-powered marketing workflows."
-    },
-    {
-      question: "Will I learn modern SEO including AEO and GEO?",
-      answer:
-        "Yes. The curriculum includes Technical SEO, On-Page SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO)."
-    },
-    {
-      question: "Does this course include Google Analytics 4 and paid advertising?",
-      answer:
-        "Absolutely. You'll work with GA4, Looker Studio, Google Performance Max, Smart Bidding, and campaign optimization."
-    },
-    {
-      question: "Will I build a professional marketing portfolio?",
-      answer:
-        "Yes. You'll complete real-world SEO, content, paid ads, analytics, and automation projects suitable for client work and job interviews."
-    }
-  ],
+  // faqs: [
+  //   {
+  //     question: "Do I need prior marketing experience?",
+  //     answer:
+  //       "No. The course starts from digital marketing fundamentals and gradually introduces AI-powered marketing workflows."
+  //   },
+  //   {
+  //     question: "Will I learn modern SEO including AEO and GEO?",
+  //     answer:
+  //       "Yes. The curriculum includes Technical SEO, On-Page SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO)."
+  //   },
+  //   {
+  //     question: "Does this course include Google Analytics 4 and paid advertising?",
+  //     answer:
+  //       "Absolutely. You'll work with GA4, Looker Studio, Google Performance Max, Smart Bidding, and campaign optimization."
+  //   },
+  //   {
+  //     question: "Will I build a professional marketing portfolio?",
+  //     answer:
+  //       "Yes. You'll complete real-world SEO, content, paid ads, analytics, and automation projects suitable for client work and job interviews."
+  //   }
+  // ],
 
-  featured: true,
-  color: "from-orange-500 to-pink-600",
-  icon: "Megaphone"
-  },
+  // featured: true,
+  // color: "from-orange-500 to-pink-600",
+  // icon: "Megaphone"
+  // },
   {
   id: "23",
   slug: "full-stack-python-developer-generative-ai-llms",
@@ -5774,7 +5774,287 @@ export const courses: Course[] = [
   featured: true,
   color: "from-indigo-700 to-cyan-500",
   icon: "BarChart3"
-  }
+  },
+  {
+  id: "29",
+  slug: "ai-powered-data-science-professional",
+  name: "AI-Powered Master Certificate in Data Science Professional",
+
+  shortDescription:
+    "Master Python, SQL, data engineering, statistics, machine learning, Generative AI, LLMs, cloud deployment, and MLOps to build enterprise-grade data science solutions.",
+
+  fullDescription:
+    "An industry-focused AI-powered master program designed to develop end-to-end Data Science professionals. Learn Python, SQL, data engineering, mathematics and statistics, exploratory data analysis, machine learning, Generative AI, LLMs, RAG, AI agents, cloud deployment, and MLOps while building real-world analytics and AI applications.",
+
+  category: "ai",
+  level: "advanced",
+  duration: "5 Months",
+  durationWeeks: 20,
+  hours: "200 Hours",
+  // courseCode: "NEX-DSAI-507",
+
+  mode: "Online / Offline",
+
+  batchOptions: [
+    "Weekday Batch",
+    "Weekend Batch",
+    "Corporate Fast Track"
+  ],
+
+  technologies: [
+    "Python",
+    "Jupyter Notebook",
+    "Anaconda",
+    "NumPy",
+    "Pandas",
+    "SQL",
+    "MySQL",
+    "PostgreSQL",
+    "Matplotlib",
+    "Seaborn",
+    "Plotly",
+    "Power BI",
+    "Scikit-learn",
+    "OpenAI API",
+    "Gemini API",
+    "Claude",
+    "LangChain",
+    "ChromaDB",
+    "FAISS",
+    "FastAPI",
+    "Streamlit",
+    "Docker",
+    "AWS",
+    "Git",
+    "GitHub"
+  ],
+
+  projects: [
+    "Sales Data Processing System",
+    "Retail Data Warehouse",
+    "Executive Analytics Dashboard",
+    "Customer Churn Prediction System",
+    "AI Business Intelligence Assistant",
+    "ML Prediction API",
+    "AI-Powered Decision Intelligence Platform"
+  ],
+
+  careerPaths: [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Data Analyst",
+    "AI Engineer",
+    "Data Engineer",
+    "ML Operations Engineer"
+  ],
+
+  learningOutcomes: [
+    "Develop strong Python programming and data processing skills",
+    "Work with relational databases and advanced SQL analytics",
+    "Build ETL pipelines and analytical data marts",
+    "Apply mathematics and statistics to real-world data science problems",
+    "Perform EDA, feature engineering, and business data visualization",
+    "Develop and evaluate machine learning models using Scikit-learn",
+    "Build LLM, RAG, semantic search, and AI-agent applications",
+    "Deploy machine learning and AI applications using FastAPI, Streamlit, Docker, and cloud platforms",
+    "Build enterprise-level data science projects for a professional portfolio"
+  ],
+
+  prerequisites: [
+    "Basic computer knowledge",
+    "Basic mathematics recommended",
+    "No prior data science experience required",
+    "Laptop with Python development environment recommended"
+  ],
+
+  whoIsItFor: [
+    "Engineering students",
+    "Computer Science & IT graduates",
+    "Statistics & Mathematics students",
+    "Aspiring Data Scientists",
+    "Working professionals",
+    "Data Analysts transitioning into AI/ML"
+  ],
+
+  syllabus: [
+    {
+      title: "Module 1: Python Programming for Data Science",
+      topics: [
+        "Python Environment Setup",
+        "VS Code, Jupyter & Anaconda",
+        "Variables & Data Types",
+        "Operators",
+        "Control Statements",
+        "Functions",
+        "Object-Oriented Programming",
+        "Modules & Packages",
+        "NumPy Fundamentals",
+        "Pandas DataFrames & Series",
+        "Data Cleaning",
+        "Missing Value Handling",
+        "CSV, Excel & JSON Files",
+        "Exploratory Data Processing",
+        "Exception Handling",
+        "Logging",
+        "Mini Project: Sales Data Processing System"
+      ]
+    },
+    {
+      title: "Module 2: SQL & Data Engineering",
+      topics: [
+        "Database Fundamentals",
+        "MySQL & PostgreSQL",
+        "Advanced SQL Queries",
+        "Joins",
+        "Subqueries",
+        "Common Table Expressions",
+        "Window Functions",
+        "Data Warehousing",
+        "ETL Pipeline Fundamentals",
+        "Data Modeling",
+        "Star Schema",
+        "Data Validation & Quality",
+        "SQL Optimization",
+        "Analytical Data Marts",
+        "Mini Project: Retail Data Warehouse"
+      ]
+    },
+    {
+      title: "Module 3: Mathematics & Statistics for AI",
+      topics: [
+        "Linear Algebra",
+        "Vectors & Matrices",
+        "Probability Theory",
+        "Descriptive Statistics",
+        "Inferential Statistics",
+        "Correlation & Covariance",
+        "Hypothesis Testing",
+        "Normal Distribution",
+        "Confidence Intervals",
+        "Regression Mathematics",
+        "Statistical Decision Making",
+        "Mini Lab: Business Statistics Analysis"
+      ]
+    },
+    {
+      title: "Module 4: Data Analysis & Visualization",
+      topics: [
+        "Exploratory Data Analysis",
+        "Feature Engineering",
+        "Data Transformation",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Power BI Integration",
+        "KPI Dashboard Design",
+        "Business Storytelling",
+        "Customer Segmentation",
+        "Time-Series Visualization",
+        "Mini Project: Executive Analytics Dashboard"
+      ]
+    },
+    {
+      title: "Module 5: Machine Learning & Predictive Analytics",
+      topics: [
+        "Machine Learning Workflow",
+        "Scikit-learn",
+        "Regression Algorithms",
+        "Classification Algorithms",
+        "Decision Trees",
+        "Random Forest",
+        "Support Vector Machines",
+        "K-Means Clustering",
+        "PCA",
+        "Model Evaluation Metrics",
+        "Cross-Validation",
+        "Hyperparameter Tuning",
+        "Customer Churn Prediction Project"
+      ]
+    },
+    {
+      title: "Module 6: Generative AI, LLMs & AI Engineering",
+      topics: [
+        "Generative AI Fundamentals",
+        "Prompt Engineering",
+        "Large Language Models",
+        "OpenAI API",
+        "Gemini API",
+        "Claude & AI Research Tools",
+        "Embeddings",
+        "Semantic Search",
+        "ChromaDB",
+        "FAISS",
+        "Retrieval-Augmented Generation",
+        "LangChain",
+        "AI Agents",
+        "MCP Concepts",
+        "Mini Project: AI Business Intelligence Assistant"
+      ]
+    },
+    {
+      title: "Module 7: Cloud Deployment & MLOps",
+      topics: [
+        "Git & GitHub Workflow",
+        "Docker for Data Science",
+        "FastAPI Model Serving",
+        "Streamlit Deployment",
+        "ML Model Serialization",
+        "CI/CD for ML Projects",
+        "Cloud Storage Concepts",
+        "AWS Fundamentals",
+        "ML Application Monitoring",
+        "Model Versioning",
+        "AI Project Documentation",
+        "Mini Project: ML Prediction API Deployment"
+      ]
+    },
+    {
+      title: "Enterprise Capstone: AI-Powered Decision Intelligence Platform",
+      topics: [
+        "Multi-source Data Collection",
+        "SQL Data Warehouse",
+        "Automated ETL Pipeline",
+        "Python Analytics Engine",
+        "Machine Learning Prediction Service",
+        "Power BI Executive Dashboard",
+        "AI Business Intelligence Chatbot",
+        "RAG Knowledge Search System",
+        "Streamlit Web Application",
+        "FastAPI Prediction API",
+        "Dockerized Deployment",
+        "GitHub CI/CD Pipeline"
+      ]
+    }
+  ],
+
+  faqs: [
+    {
+      question: "Is this course suitable for beginners?",
+      answer:
+        "Yes. The program begins with Python and data fundamentals before progressing into SQL, statistics, machine learning, Generative AI, and deployment."
+    },
+    {
+      question: "Will I learn both Data Science and Generative AI?",
+      answer:
+        "Yes. The curriculum combines traditional data science and machine learning with LLMs, embeddings, RAG, semantic search, and AI agents."
+    },
+    {
+      question: "Will I learn how to deploy ML models?",
+      answer:
+        "Yes. You will learn FastAPI model serving, Streamlit applications, Docker, CI/CD, cloud fundamentals, and ML application monitoring."
+    },
+    {
+      question: "What is the final project?",
+      answer:
+        "The final 40-hour capstone is an AI-Powered Decision Intelligence Platform combining data engineering, analytics, machine learning, Power BI, LLMs, RAG, APIs, and cloud-ready deployment."
+    }
+  ],
+
+  featured: true,
+  color: "from-purple-700 to-indigo-600",
+  icon: "BrainCircuit"
+}
+
 
 ];
 

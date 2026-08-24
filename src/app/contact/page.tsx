@@ -55,7 +55,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
       <section className="section-padding" style={{ background: "white" }}>
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-            
+
             {/* Form Column (7 cols) */}
             <AnimatedSection className="lg:col-span-7">
               <div className="glass-card p-8 md:p-10 flex flex-col gap-6">
@@ -73,7 +73,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
 
             {/* Info & Map Column (5 cols) */}
             <AnimatedSection delay={0.15} className="lg:col-span-5 flex flex-col gap-8">
-              
+
               {/* Contact Details Card */}
               <div className="glass-card p-8 flex flex-col gap-6">
                 <h3 className="text-xl font-bold" style={{ fontFamily: "var(--font-heading)" }}>
@@ -87,7 +87,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Phone</p>
-                      <p style={{ color: "var(--color-text-secondary)" }}>+91 00000 00000 (Placeholder)</p>
+                      <p style={{ color: "var(--color-text-secondary)" }}>+91 00000 00000</p>
                     </div>
                   </div>
 
@@ -97,7 +97,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Email</p>
-                      <p style={{ color: "var(--color-text-secondary)" }}>info@nexifyinstitute.com</p>
+                      <p style={{ color: "var(--color-text-secondary)" }}>example@nexifyinstitute.com</p>
                     </div>
                   </div>
 
@@ -107,7 +107,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Address</p>
-                      <p style={{ color: "var(--color-text-secondary)" }}>[Nexify Campus Address Placeholder]</p>
+                      <p style={{ color: "var(--color-text-secondary)" }}>Simmakkal, Madurai, Tamil Nadu</p>
                     </div>
                   </div>
 
@@ -123,7 +123,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                 </div>
 
                 {/* Social Channels */}
-                <div className="pt-4 border-t" style={{ borderColor: "var(--color-border)", paddingTop: "15px"  }}>
+                <div className="pt-4 border-t" style={{ borderColor: "var(--color-border)", paddingTop: "15px" }}>
                   <p className="text-xs uppercase tracking-wider font-semibold mb-3" style={{ color: "var(--color-text-secondary)" }}>
                     Connect With Us
                   </p>
@@ -150,22 +150,18 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
 
               {/* Google Maps Placeholder */}
               <div className="glass-card p-6 flex flex-col gap-3">
-                <h4 className="text-base font-bold" style={{ fontFamily: "var(--font-heading)"}}>
+                <h4 className="text-base font-bold" style={{ fontFamily: "var(--font-heading)" }}>
                   Visit Our Campus
                 </h4>
                 <div
-                  className="h-48 rounded-xl flex items-center justify-center text-center p-4"
+                  className="h-48 rounded-xl flex items-center justify-center text-center"
                   style={{
                     background: "var(--gradient-brand-subtle)",
                     border: "1px solid rgba(99, 102, 241, 0.2)"
                   }}
                   aria-label="Google Maps location placeholder"
                 >
-                  <div className="flex flex-col items-center gap-2" style={{ color: "var(--color-text-secondary)" }}>
-                    <MapPin size={28} style={{ color: "var(--color-indigo)" }} />
-                    <span className="text-sm font-semibold text-white">Interactive Map Location</span>
-                    <span className="text-xs" style={{ color: "var(--color-text-muted)" }}>[Google Maps Embed Placeholder]</span>
-                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.087330655679!2d78.12145335!3d9.9266848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c58f8da053f3%3A0xa71e778a1a26c696!2sSimmakkal%2C%20Madurai%20Main%2C%20Madurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1787554522660!5m2!1sen!2sin" style={{ border: "0", width: "100%", height: "100%" }} loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
               </div>
 

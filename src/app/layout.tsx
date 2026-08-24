@@ -62,7 +62,7 @@ export default function RootLayout({
     >
       <body className="min-h-screen flex flex-col" style={{ fontFamily: "var(--font-inter, Inter, sans-serif)" }}>
         <Navbar />
-        <main className="flex-1 flex flex-col" role="main" style={{ marginBottom: "20px", paddingTop: "100px"}}>
+        <main className="flex-1 flex flex-col" role="main" style={{ marginBottom: "20px", paddingTop: "80px"}}>
           {children}
         </main>
         <Footer />

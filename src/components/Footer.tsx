@@ -4,12 +4,12 @@ import { Instagram, Linkedin, Youtube, Facebook, Phone, Mail, MapPin, MessageCir
 
 const footerLinks = {
   courses: [
-    { label: "Programming", href: "/courses/programming-fundamentals" },
-    { label: "Python & AI", href: "/courses/python-ai-automation" },
-    { label: "Data Analytics", href: "/courses/data-analytics-power-bi" },
-    { label: "Full Stack MERN", href: "/courses/full-stack-mern" },
-    { label: "UI/UX Design", href: "/courses/ui-ux-design-figma" },
-    { label: "AI Productivity", href: "/courses/ai-productivity-specialist" }
+    { label: "Programming", href: "/courses/certificate-programming-foundations-c-cpp" },
+    { label: "Python & AI", href: "/courses/python-developer-ai-automation" },
+    { label: "Data Analytics", href: "/courses/data-analytics-professional" },
+    { label: "Full Stack MERN", href: "/courses/mern-stack-developer-generative-ai-agentic-applications" },
+    { label: "Full Stack MEAN", href: "/courses/mean-stack-developer-generative-ai-agentic-applications" },
+    { label: "Data Science", href: "/courses/ai-powered-data-science-professional" }
   ],
   explore: [
     { label: "Workshops", href: "/workshops" },
@@ -77,22 +77,22 @@ export default function Footer() {
                 style={{ color: "var(--color-text-muted)" }}
               >
                 <Phone size={15} style={{ color: "var(--color-tech-teal)" }} />
-                <span>+91 00000 00000 (Placeholder)</span>
+                <span>+91 00000 00000</span>
               </a>
               <a
-                href="mailto:info@nexifyinstitute.com"
+                href="mailto:example@nexifyinstitute.com"
                 className="flex items-center gap-3 text-sm transition-colors hover:text-white"
                 style={{ color: "var(--color-text-muted)" }}
               >
                 <Mail size={15} style={{ color: "var(--color-tech-teal)" }} />
-                <span>info@nexifyinstitute.com</span>
+                <span>example@nexifyinstitute.com</span>
               </a>
               <div
                 className="flex items-center gap-3 text-sm"
                 style={{ color: "var(--color-text-muted)" }}
               >
                 <MapPin size={15} className="flex-shrink-0" style={{ color: "var(--color-tech-teal)" }} />
-                <span>[Nexify Campus Address Placeholder]</span>
+                <span>Simmakkal, Madurai, Tamil Nadu</span>
               </div>
             </div>
 
@@ -140,7 +140,7 @@ export default function Footer() {
           </div>
 
           {/* Explore Column */}
-          <div>
+          {/* <div>
             <h3
               className="text-xs font-bold uppercase tracking-widest mb-5"
               style={{ color: "var(--color-primary-green)", paddingTop: "15px", paddingBottom: "15px" }}
@@ -160,7 +160,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Support Column */}
           <div>
@@ -195,6 +195,25 @@ export default function Footer() {
                 Mon–Sat: 9:00 AM – 7:00 PM
               </p>
             </div> */}
+          </div>
+
+          {/* Google Maps Placeholder */}
+          <div className="p-6 flex flex-col gap-3">
+            <h4 className="text-base font-bold" style={{ fontFamily: "var(--font-heading)" }}>
+              Visit Our Campus
+            </h4>
+            <div
+              className="h-48 rounded-xl flex items-center justify-center text-center"
+              style={{
+                background: "var(--gradient-brand-subtle)",
+                border: "1px solid rgba(99, 102, 241, 0.2)"
+              }}
+              aria-label="Google Maps location placeholder"
+            >
+              <div className="flex flex-col items-center gap-2" style={{ color: "var(--color-text-secondary)" }}>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.087330655679!2d78.12145335!3d9.9266848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c58f8da053f3%3A0xa71e778a1a26c696!2sSimmakkal%2C%20Madurai%20Main%2C%20Madurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1787554522660!5m2!1sen!2sin" style={{ border: "0;", width: "100%", height: "100%" }} loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+              </div>
+            </div>
           </div>
         </div>
 
