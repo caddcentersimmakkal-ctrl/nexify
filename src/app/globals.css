@@ -277,38 +277,63 @@ h6 {
 
 
 
-/* Base Navbar Styling */
-nav ul {
+/* =========================================================
+   LEGAL PAGES
+========================================================= */
+
+.legal-content p {
+  color: var(--color-text-secondary);
+}
+
+.legal-content ul {
   list-style: none;
+  padding: 0;
+  margin-top: 1rem;
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  gap: 0.65rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: var(--color-navy-bg);
-  font-size: 16px;
-  font-weight: bold;
+.legal-content li {
   position: relative;
-  /* Crucial for absolute pseudo-elements */
-  padding: 5px 0;
+  padding-left: 1.5rem;
+  color: var(--color-text-secondary);
 }
 
-/* Underline Setup */
-nav a::after {
-  content: '';
+.legal-content li::before {
+  content: "•";
   position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
   left: 0;
-  background-color: var(--color-border-hover);
-  /* Underline color */
-  transition: width 0.3s ease;
-  /* Smooth transition */
+  top: 0;
+  font-weight: 700;
+  color: var(--color-text-primary);
 }
 
-/* Hover Action */
-nav a:hover::after {
+.legal-content table {
   width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.legal-content th,
+.legal-content td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border: 1px solid var(--color-border);
+}
+
+.legal-content th {
+  font-weight: 700;
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+}
+
+.legal-content td {
+  color: var(--color-text-secondary);
+}
+
+.legal-content strong {
+  color: var(--color-text-primary);
 }

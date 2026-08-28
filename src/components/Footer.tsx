@@ -66,7 +66,7 @@ export default function Footer() {
             </div>
 
             <p className="text-sm leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-              Nexify Institute provides practical, industry-focused technology training, real-world project portfolios, and career placement support to help students and professionals succeed in tech.
+              Nexify Institute provides practical, industry-focused technology training, real-world project portfolios, and career placement assistance to help students and professionals succeed in tech.
             </p>
 
             {/* Contact Info */}

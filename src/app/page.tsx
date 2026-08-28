@@ -133,7 +133,7 @@ function HeroSection() {
                 "Practical Technology Training",
                 "Real Projects",
                 "Career Preparation",
-                "Placement Support"
+                "Placement Assistance"
               ].map(item => (
                 <div
                   key={item}
@@ -244,7 +244,7 @@ const whyCards = [
   },
   {
     icon: TrendingUp,
-    title: "Career Support",
+    title: "Career Guidance",
     description: "Get guidance on resumes, portfolios, interview preparation and career planning beyond the classroom.",
     color: "from-[#1686A0] to-[#286A3D]"
   }

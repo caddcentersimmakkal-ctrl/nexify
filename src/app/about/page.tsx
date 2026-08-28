@@ -57,7 +57,7 @@ const differentiators = [
     description: "Updated continuously to reflect current tech stacks used by top tech companies and startups."
   },
   {
-    title: "Career Support",
+    title: "Career Guidance",
     description: "Comprehensive guidance covering resume optimization, portfolio reviews, and technical interview practice."
   },
   {
