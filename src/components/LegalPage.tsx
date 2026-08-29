@@ -252,7 +252,7 @@ export default function LegalPage({
           background: "var(--color-background)",
         }}
       >
-        <div className="section-container">
+        <div className="section-container" style={{background: "white"}}>
           <AnimatedSection direction="up">
             <div className="glass-card p-8 md:p-12 text-center" style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "1rem" }}>
               <div
