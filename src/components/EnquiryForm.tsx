@@ -90,7 +90,7 @@ export default function EnquiryForm({ preselectedCourse }: { preselectedCourse?:
     e.preventDefault();
     if (!validate()) return;
 
-    const counsellorNumber = "916381983074"; // Replace with your WhatsApp number
+    const counsellorNumber = "919566567588"; // Replace with your WhatsApp number
 
     const whatsappMessage = `🎓 *New Counselling Enquiry*
 
