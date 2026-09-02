@@ -87,7 +87,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Phone</p>
-                      <p style={{ color: "var(--color-text-secondary)" }}>+91 00000 00000</p>
+                      <p style={{ color: "var(--color-text-secondary)" }}>+91 9566567588</p>
                     </div>
                   </div>
 
@@ -97,7 +97,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Email</p>
-                      <p style={{ color: "var(--color-text-secondary)" }}>example@nexifyinstitute.com</p>
+                      <p style={{ color: "var(--color-text-secondary)" }}>thenexifymadurai@gmail.com</p>
                     </div>
                   </div>
 
@@ -107,7 +107,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Address</p>
-                      <p style={{ color: "var(--color-text-secondary)" }}>Simmakkal, Madurai, Tamil Nadu</p>
+                      <p style={{ color: "var(--color-text-secondary)" }}>Madurai, Tamil Nadu</p>
                     </div>
                   </div>
 

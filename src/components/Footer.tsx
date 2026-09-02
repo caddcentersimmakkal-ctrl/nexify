@@ -72,27 +72,27 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="flex flex-col gap-3">
               <a
-                href="tel:+910000000000"
+                href="tel:+919566567588"
                 className="flex items-center gap-3 text-sm transition-colors hover:text-white"
                 style={{ color: "var(--color-text-muted)" }}
               >
                 <Phone size={15} style={{ color: "var(--color-tech-teal)" }} />
-                <span>+91 00000 00000</span>
+                <span>+91 9566567588</span>
               </a>
               <a
-                href="mailto:example@nexifyinstitute.com"
+                href="mailto:thenexifymadurai@gmail.com"
                 className="flex items-center gap-3 text-sm transition-colors hover:text-white"
                 style={{ color: "var(--color-text-muted)" }}
               >
                 <Mail size={15} style={{ color: "var(--color-tech-teal)" }} />
-                <span>example@nexifyinstitute.com</span>
+                <span>thenexifymadurai@gmail.com</span>
               </a>
               <div
                 className="flex items-center gap-3 text-sm"
                 style={{ color: "var(--color-text-muted)" }}
               >
                 <MapPin size={15} className="flex-shrink-0" style={{ color: "var(--color-tech-teal)" }} />
-                <span>Simmakkal, Madurai, Tamil Nadu</span>
+                <span>Madurai, Tamil Nadu</span>
               </div>
             </div>
 
