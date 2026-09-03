@@ -5,15 +5,32 @@ import { useRouter } from "next/navigation";
 import { Send, CheckCircle, AlertCircle } from "lucide-react";
 
 const courseOptions = [
-  "Programming Fundamentals",
-  "Python for AI & Automation",
-  "Data Analytics with Power BI",
-  "Full Stack MERN Development",
-  "Full Stack Python Development",
-  "Full Stack Java Development",
-  "UI/UX Design with Figma",
-  "AI Productivity Specialist",
-  "Not sure yet — need guidance"
+"AI-Powered Master Certificate in Full Stack Java Developer with AI",
+"AI-Powered Master Certificate in Full Stack Python Developer with AI",
+"AI-Powered Master Certificate in MERN Stack Developer with AI",
+"AI-Powered Master Certificate in MEAN Stack Developer with AI",
+"AI-Powered Master Certificate in Data Analytics Professional",
+"AI-Powered Master Certificate in Data Science Professional",
+"Master Certificate in Data Analytics Professional",
+"Master Certificate in Machine Learning Professional",
+"Master Certificate in Java Backend Developer",
+"Master Certificate in Python Backend Developer",
+"Master Certificate in Data Science Professional",
+"Professional Certificate in Python Developer: AI & Automation",
+"Professional Certificate in Java Developer",
+"Professional Certificate in React Frontend Developer",
+"Professional Certificate in Angular Frontend Developer",
+"Professional Certificate in Python Developer",
+"Certificate in Git & GitHub Associate",
+"Certificate in AI Productivity Specialist",
+"Certificate in Programming Foundations: C & C++",
+"Certificate in Career Readiness Program",
+"Certificate in SQL Database Associate",
+"Certificate in Excel Professional",
+"Certificate in Web Designer",
+"Certificate in AI & Prompt Engineering Professional",
+"Certificate in Power BI Business Intelligence Professional",
+"Not sure yet — need guidance",
 ];
 
 const statusOptions = [

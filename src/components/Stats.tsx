@@ -36,7 +36,7 @@ export default function Stats() {
                 </motion.span>
                 <span
                   className="text-base font-semibold"
-                  style={{ color: "var(--color-text-primary)" }}
+                  style={{ color: "black" }}
                 >
                   {stat.label}
                 </span>

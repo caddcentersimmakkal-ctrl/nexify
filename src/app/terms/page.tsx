@@ -423,12 +423,12 @@ const sections: LegalSection[] = [
         <div className="mt-4 space-y-2">
           <p>
             <strong>Email:</strong>{" "}
-            info@nexifyinstitute.com
+            thenexifymadurai@gmail.com
           </p>
 
           <p>
             <strong>Phone:</strong>{" "}
-            +91 XXXXX XXXXX
+            +91 9566567588
           </p>
 
           <p>
